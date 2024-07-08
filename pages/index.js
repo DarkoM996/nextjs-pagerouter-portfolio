@@ -2,6 +2,7 @@ import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import ProjectSection from "./components/ProjectSection";
 
 const monstserrat = Montserrat({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <ProjectSection />
     </div>
   );
 }
