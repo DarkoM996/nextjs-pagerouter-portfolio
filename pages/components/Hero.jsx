@@ -2,10 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-4">
-      <div>
+    <div className="max-w-screen-3xl mx-auto w-full h-[60vh] bg-primary_backgroundLighterColor-400 relative px-6 py-4">
+      <div className="flex flex-col justify-center items-start w-full h-full">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold">
-          Creative Developer and Designer
+          Web Development. Web Design. Product Design & More
         </h1>
       </div>
     </div>
