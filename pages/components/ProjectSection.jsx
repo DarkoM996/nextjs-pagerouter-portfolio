@@ -10,14 +10,14 @@ import Link from "next/link";
 const ProjectSection = () => {
   return (
     <div className=" max-w-screen-2xl mx-auto h-[1600px] relative px-6 py-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Project #1 */}
         <div className=" inline-block justify-center items-center gap-4 w-[calc(50% - 60px)] mb-40">
           <div className="relative h-[620px]">
             <Image
               src={picture1}
               alt="picture1"
-              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -35,7 +35,7 @@ const ProjectSection = () => {
             <Image
               src={picture2}
               alt="picture1"
-              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full  h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -53,7 +53,7 @@ const ProjectSection = () => {
             <Image
               src={picture3}
               alt="picture1"
-              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full  h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -71,7 +71,7 @@ const ProjectSection = () => {
             <Image
               src={picture4}
               alt="picture1"
-              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full  h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -89,7 +89,7 @@ const ProjectSection = () => {
             <Image
               src={picture5}
               alt="picture1"
-              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full  h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
