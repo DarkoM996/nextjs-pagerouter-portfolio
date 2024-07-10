@@ -9,21 +9,17 @@ import Link from "next/link";
 
 const ProjectSection = () => {
   return (
-    <div className=" max-w-screen-2xl mx-auto h-[2300px] relative px-6 py-4">
-      {/* Grid  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full h-full">
-        {/* Grid Item */}
-        <div className="flex flex-col justify-center items-center gap-4">
-          <Link
-            href="/projects/furniturewebsite"
-            className="relative h-[620px]"
-          >
+    <div className=" max-w-screen-2xl mx-auto h-[1600px] relative px-6 py-4">
+      <div className="flex">
+        {/* Project #1 */}
+        <div className=" inline-block justify-center items-center gap-4 w-[calc(50% - 60px)] mb-40">
+          <div className="relative h-[620px]">
             <Image
               src={picture1}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full lg:w-[420px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
-          </Link>
+          </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               CoffeeBar
@@ -33,13 +29,13 @@ const ProjectSection = () => {
             </p>
           </div>
         </div>
-        {/* Grid Item */}
-        <div className="flex flex-col justify-center items-center gap-4">
+        {/* Project #1 */}
+        <div className="flex flex-col justify-center items-center gap-4 w-[calc(50% - 60px)] mt-44">
           <div className="relative h-[620px]">
             <Image
               src={picture2}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-[420px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -51,13 +47,13 @@ const ProjectSection = () => {
             </p>
           </div>
         </div>
-        {/* Grid Item */}
-        <div className="flex flex-col justify-center items-center gap-4">
+        {/* Project #1 */}
+        <div className="flex flex-col justify-center items-center gap-4 mb-40">
           <div className="relative h-[620px]">
             <Image
               src={picture3}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-[420px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -69,13 +65,13 @@ const ProjectSection = () => {
             </p>
           </div>
         </div>
-        {/* Grid Item */}
-        <div className="flex flex-col justify-center items-center gap-4">
+        {/* Project #1 */}
+        <div className="flex flex-col justify-center items-center gap-4 w-[calc(50% - 60px)] mt-40">
           <div className="relative h-[620px]">
             <Image
               src={picture4}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-[420px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -87,13 +83,31 @@ const ProjectSection = () => {
             </p>
           </div>
         </div>
-        {/* Grid Item */}
-        <div className="flex flex-col justify-center items-center gap-4">
-          <div className="relative h-[720px]">
+        {/* Project #1 */}
+        <div className="flex flex-col justify-center items-center gap-4 mb-40">
+          <div className="relative h-[620px]">
             <Image
               src={picture5}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-[420px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+            />
+          </div>
+          <div className="flex flex-col justify-center items-center gap-2">
+            <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
+              CoffeeBar
+            </h4>
+            <p className="text-base text-primary_backgroundDarkerColor-600">
+              Coffee Bar Website
+            </p>
+          </div>
+        </div>
+        {/* Project #1 */}
+        <div className="flex flex-col justify-center items-center gap-4 mt-40">
+          <div className="relative h-[620px]">
+            <Image
+              src={picture5}
+              alt="picture1"
+              className="w-[420px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -120,7 +134,7 @@ export default ProjectSection;
 //     <Image
 //       src={picture1}
 //       alt="picture1"
-//       className="w-[420px] h-full object-cover rounded-3xl"
+//       className="w-[420px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
 //     />
 //   </div>
 //   <div className="flex flex-col justify-center items-center gap-2">
@@ -135,15 +149,14 @@ export default ProjectSection;
 
 // Working Project Section With Grid Columns
 
-// {/* <div className=" max-w-screen-2xl mx-auto h-[2300px] relative px-6 py-4">
-// {/* Grid  */}
-// <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full h-full">
+{
+  /* <div className=" max-w-screen-2xl mx-auto h-[2300px] relative px-6 py-4">
+{/* Grid  */
+}
+// {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full h-full">
 //   {/* Grid Item */}
 //   <div className="flex flex-col justify-center items-center gap-4">
-//     <Link
-//       href="/projects/furniturewebsite"
-//       className="relative h-[620px]"
-//     >
+//     <Link href="/projects/furniturewebsite" className="relative h-[620px]">
 //       <Image
 //         src={picture1}
 //         alt="picture1"
@@ -231,5 +244,4 @@ export default ProjectSection;
 //       </p>
 //     </div>
 //   </div>
-// </div>
-// </div> */}
+// </div>; */}
