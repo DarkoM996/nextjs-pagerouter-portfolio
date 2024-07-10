@@ -5,21 +5,25 @@ import picture2 from "../../public/images/travel-landing-page-mockup-1.4.jpg";
 import picture3 from "../../public/images/sneakerhead-eccomerce-website-featured-picture.jpg";
 import picture4 from "../../public/images/coffee-bar-concept-version-2.0-volume-2.3.jpg";
 import picture5 from "../../public/images/food-order-web-app-featured-mockup.jpg";
+import Link from "next/link";
 
 const ProjectSection = () => {
   return (
-    <div className=" max-w-screen-2xl mx-auto w-full h-[1080px] relative px-6 py-4">
+    <div className=" max-w-screen-2xl mx-auto h-[2300px] relative px-6 py-4">
       {/* Grid  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full h-full">
         {/* Grid Item */}
         <div className="flex flex-col justify-center items-center gap-4">
-          <div className="relative h-[620px]">
+          <Link
+            href="/projects/furniturewebsite"
+            className="relative h-[620px]"
+          >
             <Image
               src={picture1}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
-          </div>
+          </Link>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               CoffeeBar
@@ -131,18 +135,21 @@ export default ProjectSection;
 
 // Working Project Section With Grid Columns
 
-// {/* <div className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-4">
+// {/* <div className=" max-w-screen-2xl mx-auto h-[2300px] relative px-6 py-4">
 // {/* Grid  */}
-// <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+// <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full h-full">
 //   {/* Grid Item */}
 //   <div className="flex flex-col justify-center items-center gap-4">
-//     <div className="relative h-[620px]">
+//     <Link
+//       href="/projects/furniturewebsite"
+//       className="relative h-[620px]"
+//     >
 //       <Image
 //         src={picture1}
 //         alt="picture1"
-//         className="w-full h-full object-cover rounded-3xl"
+//         className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
 //       />
-//     </div>
+//     </Link>
 //     <div className="flex flex-col justify-center items-center gap-2">
 //       <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
 //         CoffeeBar
@@ -158,7 +165,7 @@ export default ProjectSection;
 //       <Image
 //         src={picture2}
 //         alt="picture1"
-//         className="w-full h-full object-cover rounded-3xl"
+//         className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
 //       />
 //     </div>
 //     <div className="flex flex-col justify-center items-center gap-2">
@@ -176,7 +183,7 @@ export default ProjectSection;
 //       <Image
 //         src={picture3}
 //         alt="picture1"
-//         className="w-full h-full object-cover rounded-3xl"
+//         className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
 //       />
 //     </div>
 //     <div className="flex flex-col justify-center items-center gap-2">
@@ -194,7 +201,7 @@ export default ProjectSection;
 //       <Image
 //         src={picture4}
 //         alt="picture1"
-//         className="w-full h-full object-cover rounded-3xl"
+//         className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
 //       />
 //     </div>
 //     <div className="flex flex-col justify-center items-center gap-2">
@@ -212,7 +219,7 @@ export default ProjectSection;
 //       <Image
 //         src={picture5}
 //         alt="picture1"
-//         className="w-full h-full object-cover rounded-3xl"
+//         className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
 //       />
 //     </div>
 //     <div className="flex flex-col justify-center items-center gap-2">
