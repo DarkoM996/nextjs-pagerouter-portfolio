@@ -10,7 +10,7 @@ import Link from "next/link";
 const ProjectSection = () => {
   return (
     <div className=" max-w-screen-2xl mx-auto h-[1600px] relative px-6 py-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Project #1 */}
         <div className=" inline-block justify-center items-center gap-4 md:mb-40">
           <div className="relative h-[620px]">
