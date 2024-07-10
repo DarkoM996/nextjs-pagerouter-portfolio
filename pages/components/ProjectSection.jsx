@@ -12,7 +12,7 @@ const ProjectSection = () => {
     <div className=" max-w-screen-2xl mx-auto h-[1600px] relative px-6 py-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Project #1 */}
-        <div className=" inline-block justify-center items-center gap-4 w-[calc(50% - 60px)] mb-40">
+        <div className=" inline-block justify-center items-center gap-4 md:mb-40">
           <div className="relative h-[620px]">
             <Image
               src={picture1}
@@ -30,7 +30,7 @@ const ProjectSection = () => {
           </div>
         </div>
         {/* Project #2 */}
-        <div className="flex flex-col justify-center items-center gap-4 w-[calc(50% - 60px)] mb-22">
+        <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
           <div className="relative h-[620px]">
             <Image
               src={picture2}
@@ -48,7 +48,7 @@ const ProjectSection = () => {
           </div>
         </div>
         {/* Project #3 */}
-        <div className="flex flex-col justify-center items-center gap-4 mb-16">
+        <div className="flex flex-col justify-center items-center gap-4 md:mb-36">
           <div className="relative h-[620px]">
             <Image
               src={picture3}
@@ -66,7 +66,7 @@ const ProjectSection = () => {
           </div>
         </div>
         {/* Project #4 */}
-        <div className="flex flex-col justify-center items-center gap-4 w-[calc(50% - 60px)] mb-40">
+        <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
           <div className="relative h-[620px]">
             <Image
               src={picture4}
@@ -84,7 +84,7 @@ const ProjectSection = () => {
           </div>
         </div>
         {/* Project #5 */}
-        <div className="flex flex-col justify-center items-center gap-4 mb-32">
+        <div className="flex flex-col justify-center items-center gap-4 md:mb-32">
           <div className="relative h-[620px]">
             <Image
               src={picture5}
