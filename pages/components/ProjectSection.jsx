@@ -10,14 +10,14 @@ import Link from "next/link";
 const ProjectSection = () => {
   return (
     <div className=" max-w-screen-2xl mx-auto h-[1600px] relative px-6 py-4">
-      <div className="flex flex-col justify-center items-center md:flex-row md:justify-self-center gap-6">
+      <div className="flex flex-col justify-center items-center md:flex-row md:justify-between flex-wrap gap-6">
         {/* Project #1 */}
         <div className=" inline-block justify-center items-center gap-4 w-[calc(50% - 60px)] mb-40">
           <div className="relative h-[620px]">
             <Image
               src={picture1}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -29,13 +29,13 @@ const ProjectSection = () => {
             </p>
           </div>
         </div>
-        {/* Project #1 */}
+        {/* Project #2 */}
         <div className="flex flex-col justify-center items-center gap-4 w-[calc(50% - 60px)] mb-22">
           <div className="relative h-[620px]">
             <Image
               src={picture2}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -47,13 +47,13 @@ const ProjectSection = () => {
             </p>
           </div>
         </div>
-        {/* Project #1 */}
+        {/* Project #3 */}
         <div className="flex flex-col justify-center items-center gap-4 mb-16">
           <div className="relative h-[620px]">
             <Image
               src={picture3}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -65,13 +65,13 @@ const ProjectSection = () => {
             </p>
           </div>
         </div>
-        {/* Project #1 */}
+        {/* Project #4 */}
         <div className="flex flex-col justify-center items-center gap-4 w-[calc(50% - 60px)] mb-40">
           <div className="relative h-[620px]">
             <Image
               src={picture4}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -83,13 +83,13 @@ const ProjectSection = () => {
             </p>
           </div>
         </div>
-        {/* Project #1 */}
+        {/* Project #5 */}
         <div className="flex flex-col justify-center items-center gap-4 mb-32">
           <div className="relative h-[620px]">
             <Image
               src={picture5}
               alt="picture1"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full lg:w-[620px] h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
