@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import picture1 from "../../public/images/furniturewebsite-featured-pic-2.5.jpg";
 import picture2 from "../../public/images/travel-landing-page-mockup-1.4.jpg";
-import picture3 from "../../public/images/sneakerhead-eccomerce-website-featured-picture.jpg";
+import picture3 from "../../public/images/sneakerhead-eccomerce-website-featured-picture-2.jpg";
 import picture4 from "../../public/images/coffee-bar-concept-version-2.0-volume-2.3.jpg";
 import picture5 from "../../public/images/food-order-web-app-featured-mockup.jpg";
 import Link from "next/link";
