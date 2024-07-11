@@ -26,10 +26,10 @@ const ProjectSection = () => {
           </Link>
           <div className="flex flex-col justify-center items-center p-4 gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
-              CoffeeBar
+              Furnico
             </h4>
-            <p className="text-base text-primary_backgroundDarkerColor-600">
-              Coffee Bar Website
+            <p className="text-xl font-light text-primary_backgroundDarkerColor-600">
+              Ecommerce Full Stack Web App
             </p>
           </div>
         </div>
@@ -39,15 +39,15 @@ const ProjectSection = () => {
             <Image
               src={picture2}
               alt="picture1"
-              className="w-full  h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
-              CoffeeBar
+              TravelLife
             </h4>
-            <p className="text-base text-primary_backgroundDarkerColor-600">
-              Coffee Bar Website
+            <p className="text-xl font-light text-slate-500">
+              Travel Landing Page
             </p>
           </div>
         </div>
@@ -57,15 +57,15 @@ const ProjectSection = () => {
             <Image
               src={picture3}
               alt="picture1"
-              className="w-full  h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
-              CoffeeBar
+              SneakerHead
             </h4>
-            <p className="text-base text-primary_backgroundDarkerColor-600">
-              Coffee Bar Website
+            <p className="text-xl font-light text-primary_backgroundDarkerColor-600">
+              Sneaker Ecommerce Website
             </p>
           </div>
         </div>
@@ -75,14 +75,14 @@ const ProjectSection = () => {
             <Image
               src={picture4}
               alt="picture1"
-              className="w-full  h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               CoffeeBar
             </h4>
-            <p className="text-base text-primary_backgroundDarkerColor-600">
+            <p className="text-xl font-light text-primary_backgroundDarkerColor-600">
               Coffee Bar Website
             </p>
           </div>
@@ -93,15 +93,15 @@ const ProjectSection = () => {
             <Image
               src={picture5}
               alt="picture1"
-              className="w-full  h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
-              CoffeeBar
+              The Tomato
             </h4>
-            <p className="text-base text-primary_backgroundDarkerColor-600">
-              Coffee Bar Website
+            <p className="text-xl font-light text-slate-600">
+              Web App Dashboard
             </p>
           </div>
         </div>
