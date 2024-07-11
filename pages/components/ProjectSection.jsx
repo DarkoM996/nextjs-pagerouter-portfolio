@@ -35,13 +35,16 @@ const ProjectSection = () => {
         </div>
         {/* Project #2 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
-          <div className="relative w-full h-[620px] md:h-[720px]">
+          <Link
+            href="/projects/travellife"
+            className="relative w-full h-[620px] md:h-[720px]"
+          >
             <Image
               src={picture2}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
-          </div>
+          </Link>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               TravelLife
@@ -53,13 +56,16 @@ const ProjectSection = () => {
         </div>
         {/* Project #3 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-36">
-          <div className="relative w-full h-[620px] md:h-[720px]">
+          <Link
+            href="/projects/sneakerhead"
+            className="relative w-full h-[620px] md:h-[720px]"
+          >
             <Image
               src={picture3}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
-          </div>
+          </Link>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               SneakerHead
@@ -78,24 +84,30 @@ const ProjectSection = () => {
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </div>
-          <div className="flex flex-col justify-center items-center gap-2">
+          <Link
+            href="/projects/coffeebar"
+            className="flex flex-col justify-center items-center gap-2"
+          >
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               CoffeeBar
             </h4>
             <p className="text-xl font-light text-primary_backgroundDarkerColor-600">
               Coffee Bar Website
             </p>
-          </div>
+          </Link>
         </div>
         {/* Project #5 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-32">
-          <div className="relative w-full h-[620px] md:h-[720px]">
+          <Link
+            href="/projects/thetomato"
+            className="relative w-full h-[620px] md:h-[720px]"
+          >
             <Image
               src={picture5}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
-          </div>
+          </Link>
           <div className="flex flex-col justify-center items-center gap-2">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               The Tomato
