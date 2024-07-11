@@ -35,7 +35,7 @@ const ProjectSection = () => {
         </div>
         {/* Project #2 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
-          <div className="relative h-[620px]">
+          <div className="relative w-full h-[620px] md:h-[720px]">
             <Image
               src={picture2}
               alt="picture1"
@@ -53,7 +53,7 @@ const ProjectSection = () => {
         </div>
         {/* Project #3 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-36">
-          <div className="relative h-[620px]">
+          <div className="relative w-full h-[620px] md:h-[720px]">
             <Image
               src={picture3}
               alt="picture1"
@@ -71,7 +71,7 @@ const ProjectSection = () => {
         </div>
         {/* Project #4 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
-          <div className="relative h-[620px]">
+          <div className="relative w-full h-[620px] md:h-[720px]">
             <Image
               src={picture4}
               alt="picture1"
@@ -89,7 +89,7 @@ const ProjectSection = () => {
         </div>
         {/* Project #5 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-32">
-          <div className="relative h-[620px]">
+          <div className="relative w-full h-[620px] md:h-[720px]">
             <Image
               src={picture5}
               alt="picture1"
