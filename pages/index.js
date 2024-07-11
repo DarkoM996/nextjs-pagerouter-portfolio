@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
+import AboutSection from "./components/AboutSection";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import ProjectSection from "./components/ProjectSection";
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ProjectSection />
+      <AboutSection />
     </div>
   );
 }
