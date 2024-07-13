@@ -28,7 +28,7 @@ const ProjectSection = () => {
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               Furnico
             </h4>
-            <p className="text-xl font-light text-primary_backgroundDarkerColor-600">
+            <p className="text-xl font-light text-primary_customGray-700">
               Ecommerce Full Stack Web App
             </p>
           </div>
@@ -70,7 +70,7 @@ const ProjectSection = () => {
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               SneakerHead
             </h4>
-            <p className="text-xl font-light text-primary_backgroundDarkerColor-600">
+            <p className="text-xl font-light text-primary_customGray-700">
               Sneaker Ecommerce Website
             </p>
           </div>
@@ -91,7 +91,7 @@ const ProjectSection = () => {
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               CoffeeBar
             </h4>
-            <p className="text-xl font-light text-primary_backgroundDarkerColor-600">
+            <p className="text-xl font-light text-primary_customGray-700">
               Coffee Bar Website
             </p>
           </Link>
@@ -139,7 +139,7 @@ export default ProjectSection;
 //     <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
 //       CoffeeBar
 //     </h4>
-//     <p className="text-base text-primary_backgroundDarkerColor-600">
+//     <p className="text-base text-primary_customGray-700">
 //       Coffee Bar Website
 //     </p>
 //   </div>
