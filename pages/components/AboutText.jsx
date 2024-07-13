@@ -45,7 +45,7 @@ const AboutText = () => {
         <h2 className="text-3xl md:text-4xl lg:text-5xl py-16">
           Technologies I use within my work
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-xl ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-xl">
           <p>End-to-end Product Design</p>
           <p>User Experience Design</p>
           <p>Motion Design</p>
