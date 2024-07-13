@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 
 const AboutSection = () => {
+  // In this case h-full does work for some reason
+  //this gets me closer to the final design
   return (
     <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
       <div className="flex flex-col justify-between items-center w-full h-full gap-52 py-16 ">
