@@ -3,8 +3,8 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-full min-h-screen relative px-6 py-4">
-      <div className="flex flex-col justify-between items-center w-full h-full gap-48">
+    <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
+      <div className="flex flex-col justify-between items-center w-full h-full gap-52 py-16 ">
         {/* Small paragraph section */}
         <div className="flex flex-col justify-center items-center gap-4">
           <p className="text-xl w-full md:w-1/2 text-primary_customGray-800">
