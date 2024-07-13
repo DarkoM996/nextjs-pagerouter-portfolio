@@ -42,16 +42,18 @@ const AboutText = () => {
       </div>
       {/* Section about technologies used with icons from react icons */}
       <div className="max-w-screen-md mx-auto w-full h-full relative px-6 py-4">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl mb-24">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl py-16">
           Technologies I use within my work
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-3xl text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-xl ">
           <p>End-to-end Product Design</p>
-          <p>End-to-end Product Design</p>
-          <p>End-to-end Product Design</p>
-          <p>End-to-end Product Design</p>
-          <p>End-to-end Product Design</p>
-          <p>End-to-end Product Design</p>
+          <p>User Experience Design</p>
+          <p>Motion Design</p>
+          <p>Consulting</p>
+          <p>Interface Design</p>
+          <p>Interaction Design</p>
+          <p>Design Systems</p>
+          <p>Front-End</p>
         </div>
       </div>
     </div>
