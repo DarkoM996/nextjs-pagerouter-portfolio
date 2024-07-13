@@ -33,11 +33,11 @@ const AboutText = () => {
         </p>
       </div>
       {/* Image that can be changed  */}
-      <div className="relative py-24">
+      <div className="relative w-full h-screen py-24">
         <Image
           src={backgroundimg}
           alt="/"
-          className="object-cover rounded-2xl"
+          className="object-cover rounded-2xl w-full h-full"
         />
       </div>
       {/* Section about technologies used with icons from react icons */}
