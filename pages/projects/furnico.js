@@ -87,22 +87,24 @@ const furnico = () => {
           />
         </div>
         {/* Image #4 */}
-        <div className="relative w-full h-screen py-4 ">
-          <Image
-            priority={true}
-            src={picture4}
-            alt="/"
-            className="object-cover w-full h-full rounded-3xl"
-          />
-        </div>
-        {/* Image #5 */}
-        <div className="relative w-full h-screen py-4 ">
-          <Image
-            priority={true}
-            src={picture5}
-            alt="/"
-            className="object-cover w-full h-full rounded-3xl"
-          />
+        <div className="grid grid-cols-2 gap-6">
+          <div className="relative w-full h-screen py-4 ">
+            <Image
+              priority={true}
+              src={picture4}
+              alt="/"
+              className="object-cover w-full h-full rounded-3xl"
+            />
+          </div>
+          {/* Image #5 */}
+          <div className="relative w-full h-screen py-4 ">
+            <Image
+              priority={true}
+              src={picture5}
+              alt="/"
+              className="object-cover w-full h-full rounded-3xl"
+            />
+          </div>
         </div>
         {/* Image #6 */}
         <div className="relative w-full h-screen py-4 ">
