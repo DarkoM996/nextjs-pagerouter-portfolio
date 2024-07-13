@@ -1,4 +1,3 @@
-import { Poppins } from "next/font/google";
 import Head from "next/head";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
