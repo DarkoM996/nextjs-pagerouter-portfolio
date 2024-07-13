@@ -1,6 +1,10 @@
 import React from "react";
 import { FaBehance, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
+// Some Notes
+// &copy; is used to create a copyright in text
+// Adding the icons with black color make the footer look so much cleaner
+
 const Footer = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
