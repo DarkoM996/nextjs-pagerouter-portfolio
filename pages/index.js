@@ -1,12 +1,10 @@
-import { Montserrat } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Head from "next/head";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import ProjectSection from "./components/ProjectSection";
-
-const monstserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
   return (
