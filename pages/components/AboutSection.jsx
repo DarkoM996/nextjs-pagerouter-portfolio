@@ -5,8 +5,8 @@ const AboutSection = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-full min-h-screen relative px-6 py-4">
       <div className="flex flex-col justify-between items-center w-full h-full gap-48">
+        {/* Small paragraph section */}
         <div className="flex flex-col justify-center items-center gap-4">
-          {/* Small paragraph section */}
           <p className="text-xl w-full md:w-1/2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rerum
             totam suscipit pariatur velit, repudiandae ipsam laboriosam facere
