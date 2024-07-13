@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+import backgroundimg from "../../public/images/coffee-bar-concept-version-2.0-volume-2.3.jpg";
 
 const AboutText = () => {
   return (
@@ -29,6 +31,14 @@ const AboutText = () => {
           minimalistic design with carefully placed animations as well as
           transitions
         </p>
+      </div>
+      {/* Image that can be changed  */}
+      <div className="relative py-24">
+        <Image
+          src={backgroundimg}
+          alt="/"
+          className="object-cover rounded-2xl"
+        />
       </div>
     </div>
   );
