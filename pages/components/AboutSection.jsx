@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="flex flex-col justify-between items-center w-full h-full gap-48">
         {/* Small paragraph section */}
         <div className="flex flex-col justify-center items-center gap-4">
-          <p className="text-xl w-full md:w-1/2">
+          <p className="text-xl w-full md:w-1/2 text-primary_customGray-800">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rerum
             totam suscipit pariatur velit, repudiandae ipsam laboriosam facere
             adipisci quae dolore facilis quas ratione ad, optio autem nostrum
