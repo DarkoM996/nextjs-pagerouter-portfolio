@@ -1,30 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import backgroundimg from "../../public/images/coffee-bar-concept-version-2.0-volume-2.3.jpg";
-import { FaBehance, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import {
-  DiHtml5,
-  DiCss3,
-  DiPhotoshop,
-  DiIllustrator,
-  DiReact,
-} from "react-icons/di";
-import { DiJsBadge } from "react-icons/di";
-import { DiFigma } from "react-icons/di";
-import { FaFigma } from "react-icons/fa";
-import {
-  SiTailwindcss,
-  SiAdobexd,
-  SiAdobephotoshop,
-  SiAdobeillustrator,
-  SiReact,
-  SiCss3,
-  SiHtml5,
-  SiFigma,
-  SiNextdotjs,
-  SiJavascript,
-} from "react-icons/si";
-import { TbBrandFramerMotion } from "react-icons/tb";
 
 const AboutText = () => {
   return (
@@ -69,19 +45,13 @@ const AboutText = () => {
         <h2 className="text-3xl md:text-4xl lg:text-5xl mb-24">
           Technologies I use within my work
         </h2>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 text-4xl text-center">
-          <SiHtml5 />
-          <SiCss3 />
-          <SiAdobeillustrator />
-          <SiAdobephotoshop />
-          <SiFigma />
-          <SiReact />
-          <SiNextdotjs />
-          <TbBrandFramerMotion />
-          <SiJavascript />
-          <SiTailwindcss />
-          <FaGithub />
-          <SiAdobexd />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-3xl text-center">
+          <p>End-to-end Product Design</p>
+          <p>End-to-end Product Design</p>
+          <p>End-to-end Product Design</p>
+          <p>End-to-end Product Design</p>
+          <p>End-to-end Product Design</p>
+          <p>End-to-end Product Design</p>
         </div>
       </div>
     </div>
