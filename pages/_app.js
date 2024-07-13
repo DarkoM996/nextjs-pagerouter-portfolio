@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
-import { Montserrat } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 
-const montserrat = Montserrat({
+const worksans = Work_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font--bodoni--moda",
@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={montserrat.className}>
+    <main className={worksans.className}>
       <Component {...pageProps} />
     </main>
   );
