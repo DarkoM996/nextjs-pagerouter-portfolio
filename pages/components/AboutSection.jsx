@@ -10,10 +10,10 @@ const AboutSection = () => {
         {/* Small paragraph section */}
         <div className="flex flex-col justify-center items-center gap-4">
           <p className="text-xl w-full md:w-1/2 text-primary_customGray-800">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rerum
-            totam suscipit pariatur velit, repudiandae ipsam laboriosam facere
-            adipisci quae dolore facilis quas ratione ad, optio autem nostrum
-            amet ex!
+            I am Darko Mihajlovski, a creative developer and designer based out
+            of Kumanovo, North Macedonia. I help companies and brands with
+            specific solutions while focusing on taking my work to the next
+            level with quality as the main goal.
           </p>
           {/* Link towards the other page */}
           <Link href="/about" className="text-2xl font-semibold">
