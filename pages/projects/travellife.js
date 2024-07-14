@@ -12,6 +12,7 @@ const travellife = () => {
       <TravelLifeText />
       <TravelLifeImages />
       <BackToAllProjects />
+      <Footer />
     </>
   );
 };
