@@ -77,13 +77,16 @@ const ProjectSection = () => {
         </div>
         {/* Project #4 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
-          <div className="relative w-full h-[620px] md:h-[720px]">
+          <Link
+            href="/projects/coffeebar"
+            className="relative w-full h-[620px] md:h-[720px]"
+          >
             <Image
               src={picture4}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
-          </div>
+          </Link>
           <Link
             href="/projects/coffeebar"
             className="flex flex-col justify-center items-center gap-2"
