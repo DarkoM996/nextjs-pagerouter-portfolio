@@ -1,7 +1,12 @@
 import React from "react";
+import TheTomatoHero from "./../components/TheTomatoHero";
 
 const thetomato = () => {
-  return <div>thetomato</div>;
+  return (
+    <>
+      <TheTomatoHero />
+    </>
+  );
 };
 
 export default thetomato;
