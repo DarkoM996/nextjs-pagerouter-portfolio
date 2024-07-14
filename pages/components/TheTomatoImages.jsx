@@ -39,7 +39,7 @@ const TheTomatoImages = () => {
         />
       </div>
       {/* Image #4 */}
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="relative w-full h-screen py-4 ">
           <Image
             priority={true}
@@ -57,24 +57,6 @@ const TheTomatoImages = () => {
             className="object-cover w-full h-full rounded-3xl"
           />
         </div>
-      </div>
-      {/* Image #6 */}
-      <div className="relative w-full h-screen py-4 ">
-        <Image
-          priority={true}
-          src={picture6}
-          alt="/"
-          className="object-cover w-full h-full rounded-3xl"
-        />
-      </div>
-      {/* Image #7 */}
-      <div className="relative w-full h-screen py-4 ">
-        <Image
-          priority={true}
-          src={picture7}
-          alt="/"
-          className="object-cover w-full h-full rounded-3xl"
-        />
       </div>
     </div>
   );
