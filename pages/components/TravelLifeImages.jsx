@@ -10,7 +10,8 @@ import Image from "next/image";
 
 const TravelLifeImages = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-full h-screen relative px-6 py-4">
+    // h-full helps here to not cover the other sections below
+    <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
       {/* Image #1 */}
       <div className="relative w-full h-screen py-12 ">
         <Image

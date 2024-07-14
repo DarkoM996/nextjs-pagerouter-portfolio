@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BackToAllProjects = () => {
   return (
-    <div className="max-w-screen-md mx-auto w-full">
+    <div className="">
       {" "}
       {/* Back To All Projects */}
       <div className="flex flex-col justify-center items-center w-full h-[600px]">

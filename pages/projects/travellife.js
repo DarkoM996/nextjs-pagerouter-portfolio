@@ -11,6 +11,7 @@ const travellife = () => {
       <TravelLifeHero />
       <TravelLifeText />
       <TravelLifeImages />
+      <BackToAllProjects />
     </>
   );
 };
