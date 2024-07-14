@@ -8,15 +8,15 @@ const AboutSection = () => {
     <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
       <div className="flex flex-col justify-between items-center w-full h-full gap-52 py-16 ">
         {/* Small paragraph section */}
-        <div className="flex flex-col justify-center items-center gap-4">
-          <p className="text-xl w-full md:w-1/2 text-primary_customGray-800">
+        <div className="flex flex-col justify-start items-center gap-4">
+          <p className="text-xl w-full md:w-1/2  text-primary_customGray-800">
             I am Darko Mihajlovski, a creative developer and designer based out
             of Kumanovo, North Macedonia. I help companies and brands with
             specific solutions while focusing on taking my work to the next
             level with quality as the main goal.
           </p>
           {/* Link towards the other page */}
-          <Link href="/about" className="text-2xl font-semibold">
+          <Link href="/about" className="text-2xl font-semibold items-start">
             More about me
           </Link>
         </div>
