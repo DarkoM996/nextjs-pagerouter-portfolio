@@ -9,10 +9,9 @@ const FurnicoHero = () => {
           Furnico Web App
         </h1>
         <h3 className="text-2xl md:text-3xl font-medium text-primary_backgroundDarkerColor-600">
-          Days is a beautiful countdown app to all the events that matter to
-          you. Events are important, they're the small things in life that
-          matter the most. Whether it's a wedding, a holiday or just a night out
-          with your friends.
+          Furnico is an ecommerce web app that relies on clean and minimalistic
+          design with a brown color palette to create a warm and cozy feeling
+          when the user is on the website.
         </h3>
       </div>
     </div>
