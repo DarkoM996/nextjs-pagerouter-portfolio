@@ -1,7 +1,12 @@
 import React from "react";
+import TravelLifeHero from "../components/TravelLifeHero";
 
 const travellife = () => {
-  return <div>travellife</div>;
+  return (
+    <>
+      <TravelLifeHero />
+    </>
+  );
 };
 
 export default travellife;
