@@ -1,4 +1,5 @@
 import React from "react";
+import TheTomatoImages from "../components/TheTomatoImages";
 import TheTomatoText from "../components/TheTomatoText";
 import TheTomatoHero from "./../components/TheTomatoHero";
 
@@ -7,6 +8,7 @@ const thetomato = () => {
     <>
       <TheTomatoHero />
       <TheTomatoText />
+      <TheTomatoImages />
     </>
   );
 };
