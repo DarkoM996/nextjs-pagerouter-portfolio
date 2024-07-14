@@ -8,9 +8,9 @@ const SneakerHeadHero = () => {
           SneakerHead
         </h1>
         <h3 className="text-2xl md:text-3xl font-medium text-primary_backgroundDarkerColor-600">
-          Social media travel startup and the first online travel agency (OTA)
-          for Instagram. With 70M+ travel-obsessed followers @hotel is your
-          go-to for trusted travel
+          SneakerHead is an ecommerce website concept. The brand's primary goal
+          is to bring a collection of the best sneakers from the world's top
+          sneaker brands available to their customers.
         </h3>
       </div>
     </div>
