@@ -1,7 +1,12 @@
 import React from "react";
+import SneakerHeadHero from "../components/SneakerHeadHero";
 
 const sneakerhead = () => {
-  return <div>sneakerhead</div>;
+  return (
+    <>
+      <SneakerHeadHero />
+    </>
+  );
 };
 
 export default sneakerhead;
