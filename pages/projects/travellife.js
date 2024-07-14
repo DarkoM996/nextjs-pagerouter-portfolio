@@ -1,5 +1,6 @@
 import React from "react";
 import TravelLifeHero from "../components/TravelLifeHero";
+import TravelLifeImages from "../components/TravelLifeImages";
 import TravelLifeText from "../components/TravelLifeText";
 
 const travellife = () => {
@@ -7,6 +8,7 @@ const travellife = () => {
     <>
       <TravelLifeHero />
       <TravelLifeText />
+      <TravelLifeImages />
     </>
   );
 };
