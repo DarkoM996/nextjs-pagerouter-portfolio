@@ -1,11 +1,11 @@
 import React from "react";
-import picture1 from "../../public/images/travel-landing-page-mockup-1.4.jpg";
-import picture2 from "../../public/images/travel-landing-page-mockup-1.0.jpg";
-import picture3 from "../../public/images/travel-landing-page-mockup-1.1.jpg";
-import picture4 from "../../public/images/travel-landing-page-mockup-1.2.jpg";
-import picture5 from "../../public/images/travel-landing-page-mockup-1.3.jpg";
-import picture6 from "../../public/images/travel-landing-page-mockup-1.5.jpg";
-import picture7 from "../../public/images/travel-landing-page-mockup-1.6.jpg";
+import picture1 from "../../public/images/coffee-bar-concept-version-2.0-volume-1.5.jpg";
+import picture2 from "../../public/images/coffee-bar-concept-version-2.0-volume-1.8.jpg";
+import picture3 from "../../public/images/coffee-bar-concept-version-2.0-volume-1.9.jpg";
+import picture4 from "../../public/images/coffee-bar-concept-version-2.0-volume-2.0.jpg";
+import picture5 from "../../public/images/coffee-bar-concept-version-2.0-volume-2.1.jpg";
+import picture6 from "../../public/images/coffee-bar-concept-version-2.0-volume-2.4.jpg";
+import picture7 from "../../public/images/coffee-bar-concept-version-2.0-volume-2.5.jpg";
 import Image from "next/image";
 
 const CoffeeBarImages = () => {
