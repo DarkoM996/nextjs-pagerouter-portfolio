@@ -2,7 +2,8 @@ import React from "react";
 
 const TravelLifeText = () => {
   return (
-    <div className="max-w-screen-md mx-auto w-full min-h-screen relative flex flex-col justify-center items-start gap-6 px-6 py-4">
+    // H-full aka height:100% gives the desired design effect here
+    <div className="max-w-screen-md mx-auto w-full h-full relative flex flex-col justify-center items-start gap-6 px-6 py-4">
       <p className="text-xl leading-normal text-primary_customGray-900 ">
         The New York Times, USA Today, and Travel & Leisure have said Tripscout
         is THE essential app for the modern traveler. Hundreds of travel
