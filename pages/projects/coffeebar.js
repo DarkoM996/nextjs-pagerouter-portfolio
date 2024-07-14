@@ -1,7 +1,12 @@
 import React from "react";
+import CoffeeBarHero from "../components/CoffeeBarHero";
 
 const coffeebar = () => {
-  return <div>coffeebar</div>;
+  return (
+    <>
+      <CoffeeBarHero />
+    </>
+  );
 };
 
 export default coffeebar;
