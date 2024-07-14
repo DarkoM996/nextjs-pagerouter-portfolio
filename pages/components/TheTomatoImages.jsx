@@ -1,11 +1,9 @@
 import React from "react";
-import picture1 from "../../public/images/Dashboard.png";
-import picture2 from "../../public/images/Order List.png";
-import picture3 from "../../public/images/Profile Page (Edit Profile).png";
-import picture4 from "../../public/images/Web App (Menu Layout 2 Expanded).png";
-import picture5 from "../../public/images/Web App (Menu Layout Expanded).png";
-import picture6 from "../../public/images/Web App Login (final).png";
-import picture7 from "../../public/images/Dashboard.png";
+import picture1 from "../../public/images/food-order-web-app-featured-mockup.jpg";
+import picture2 from "../../public/images/food-order-web-app-mockup-2.jpg";
+import picture3 from "../../public/images/mockup-for-food-app-4.jpg";
+import picture4 from "../../public/images/mockup-for-food-app-4a.jpg";
+import picture5 from "../../public/images/mockup-for-food-web-app-2.jpg";
 import Image from "next/image";
 
 const TheTomatoImages = () => {
