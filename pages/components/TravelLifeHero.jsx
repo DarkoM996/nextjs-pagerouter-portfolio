@@ -8,8 +8,9 @@ const TravelLifeHero = () => {
           TravelLife
         </h1>
         <h3 className="text-2xl md:text-3xl font-medium text-primary_backgroundDarkerColor-600">
-          Discover a destination like a local insider and plan the perfect trip
-          with your personalized, always up-to-date travel guide.
+          TravelLife is a landing page for a travel agency that relies on clean
+          as well as minimalistic design with clean typography and device
+          friendly layout that aims to capture its users attentions.
         </h3>
       </div>
     </div>
