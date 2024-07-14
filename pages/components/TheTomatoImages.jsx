@@ -1,11 +1,11 @@
 import React from "react";
-import picture1 from "../../public/images/travel-landing-page-mockup-1.4.jpg";
-import picture2 from "../../public/images/travel-landing-page-mockup-1.0.jpg";
-import picture3 from "../../public/images/travel-landing-page-mockup-1.1.jpg";
-import picture4 from "../../public/images/travel-landing-page-mockup-1.2.jpg";
-import picture5 from "../../public/images/travel-landing-page-mockup-1.3.jpg";
-import picture6 from "../../public/images/travel-landing-page-mockup-1.5.jpg";
-import picture7 from "../../public/images/travel-landing-page-mockup-1.6.jpg";
+import picture1 from "../../public/images/Dashboard.png";
+import picture2 from "../../public/images/Order List.png";
+import picture3 from "../../public/images/Profile Page (Edit Profile).png";
+import picture4 from "../../public/images/Web App (Menu Layout 2 Expanded).png";
+import picture5 from "../../public/images/Web App (Menu Layout Expanded).png";
+import picture6 from "../../public/images/Web App Login (final).png";
+import picture7 from "../../public/images/Dashboard.png";
 import Image from "next/image";
 
 const TheTomatoImages = () => {
