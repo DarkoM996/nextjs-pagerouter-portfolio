@@ -11,23 +11,13 @@ import picture7 from "../../public/images/furniturewebsite-featured-pic-2.5.jpg"
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "../components/Footer";
+import FurnicoHero from "../components/FurnicoHero";
 
 const furnico = () => {
   return (
     <>
       <div className="max-w-screen-xl mx-auto w-full min-h-screen relative px-6 py-4">
-        {/* Hero Section */}
-        <div className="max-w-screen-md mx-auto w-full h-full flex flex-col justify-center items-start gap-6 md:gap-10 lg:gap-16">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold">
-            Furnico Web App
-          </h1>
-          <h3 className="text-2xl md:text-3xl font-medium text-primary_backgroundDarkerColor-600">
-            Days is a beautiful countdown app to all the events that matter to
-            you. Events are important, they're the small things in life that
-            matter the most. Whether it's a wedding, a holiday or just a night
-            out with your friends.
-          </h3>
-        </div>
+        <FurnicoHero />
         {/* Paragraphs explaining stuff */}
         <div className="max-w-screen-md mx-auto w-full h-full flex flex-col justify-center items-start gap-6 py-16">
           <p className="text-xl leading-normal text-primary_customGray-900 ">
