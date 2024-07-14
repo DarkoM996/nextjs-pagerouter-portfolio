@@ -1,17 +1,16 @@
 import React from "react";
-import picture1 from "../../public/images/furniturewebsite-featured-pic-1.2.jpg";
-import picture2 from "../../public/images/furniturewebsite-featured-pic-1.3.jpg";
-import picture3 from "../../public/images/furniturewebsite-featured-pic-1.2.jpg";
-import picture4 from "../../public/images/furniturewebsite-featured-pic-1.6.jpg";
-import picture5 from "../../public/images/furniturewebsite-featured-pic-1.6.jpg";
-import picture6 from "../../public/images/furniturewebsite-featured-pic-2.0.jpg";
-import picture7 from "../../public/images/furniturewebsite-featured-pic-2.5.jpg";
 import Image from "next/image";
+import picture1 from "../../public/images/travel-landing-page-mockup-1.4.jpg";
+import picture2 from "../../public/images/travel-landing-page-mockup-1.0.jpg";
+import picture3 from "../../public/images/travel-landing-page-mockup-1.1.jpg";
+import picture4 from "../../public/images/travel-landing-page-mockup-1.2.jpg";
+import picture5 from "../../public/images/travel-landing-page-mockup-1.3.jpg";
+import picture6 from "../../public/images/travel-landing-page-mockup-1.5.jpg";
+import picture7 from "../../public/images/travel-landing-page-mockup-1.6.jpg";
 
 const FurnicoImages = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-full min-h-screen relative px-6 py-4">
-      {/* Image #1 */}
       <div className="relative w-full h-screen py-12 ">
         <Image
           priority={true}
