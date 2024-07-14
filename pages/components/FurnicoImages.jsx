@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import picture1 from "../../public/images/travel-landing-page-mockup-1.4.jpg";
-import picture2 from "../../public/images/travel-landing-page-mockup-1.0.jpg";
-import picture3 from "../../public/images/travel-landing-page-mockup-1.1.jpg";
-import picture4 from "../../public/images/travel-landing-page-mockup-1.2.jpg";
-import picture5 from "../../public/images/travel-landing-page-mockup-1.3.jpg";
-import picture6 from "../../public/images/travel-landing-page-mockup-1.5.jpg";
-import picture7 from "../../public/images/travel-landing-page-mockup-1.6.jpg";
+import picture1 from "../../public/images/furniturewebsite-featured-pic-2.5.jpg";
+import picture2 from "../../public/images/furniturewebsite-featured-pic-1.2.jpg";
+import picture3 from "../../public/images/furniturewebsite-featured-pic-1.4.jpg";
+import picture4 from "../../public/images/furniturewebsite-featured-pic-1.6.jpg";
+import picture5 from "../../public/images/furniturewebsite-featured-pic-1.9.jpg";
+import picture6 from "../../public/images/furniturewebsite-featured-pic-2.0.jpg";
+import picture7 from "../../public/images/furniturewebsite-featured-pic-2.5.jpg";
 
 const FurnicoImages = () => {
   return (
@@ -38,7 +38,7 @@ const FurnicoImages = () => {
         />
       </div>
       {/* Image #4 */}
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="relative w-full h-screen py-4 ">
           <Image
             priority={true}
