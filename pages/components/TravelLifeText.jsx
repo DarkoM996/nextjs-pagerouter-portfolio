@@ -27,13 +27,12 @@ const TravelLifeText = () => {
         exploration that design tools like Figma can't do at the moment.
       </p>
       <p className="text-xl leading-normal text-primary_customGray-900  ">
-        The front end was built with React, the most popular Javascript framer
-        made by Facebook. Routing was done with the React Router version 6.4.
-        This project was additionally enhanced with some simple animations with
-        Framer Motion, an animation library for React. Framer Motion makes
-        adding animations simple and it definitely adds to the overall
-        experience as long as they are carefully made and used. Feel free to
-        check out the final landing page on the web on the link below
+        The front end was built with React. Routing was done with the React
+        Router version 6.4. This project was additionally enhanced with some
+        simple animations with Framer Motion, an animation library for React.
+        Framer Motion makes adding animations simple and it definitely adds to
+        the overall experience as long as they are carefully made and used. Feel
+        free to check out the final landing page on the web on the link below
       </p>
       <p className="text-xl leading-normal text-primary_customGray-900  ">
         The landing page was a great project to enhance and develop web
@@ -41,7 +40,7 @@ const TravelLifeText = () => {
         of Tailwind and JSX, which made building a prototype in React super easy
         yet so nice. Additionally, the usage of Framer Motion showed that
         animations don't have to be complicated nor overdone to be effective and
-        add to the landing page.
+        to add to the landing page.
       </p>
       <p className="text-xl leading-normal text-primary_customGray-900  ">
         <a
