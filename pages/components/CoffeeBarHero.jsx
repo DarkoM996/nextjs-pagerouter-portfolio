@@ -8,11 +8,9 @@ const CoffeeBarHero = () => {
           CoffeeBar
         </h1>
         <h3 className="text-2xl md:text-3xl font-medium text-primary_backgroundDarkerColor-600">
-          Established in 2011, InVision has become the leading digital product
-          design platform, driving exceptional user experiences globally. With
-          comprehensive tools spanning ideation, design, prototyping, and
-          management, InVision empowered over 5 million individuals to create
-          and collaborate efficiently.
+          CoffeeBar is a UX UI Design case study about a coffee bar where people
+          can enjoy their favorite cup of coffee in a relaxing atmosphere that
+          tests an innovative concept.
         </h3>
       </div>
     </div>
