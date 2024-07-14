@@ -1,4 +1,5 @@
 import React from "react";
+import BackToAllProjects from "../components/BackToAllProjects";
 import SneakerHeadHero from "../components/SneakerHeadHero";
 import SneakerHeadImages from "../components/SneakerHeadImages";
 import SneakerHeadText from "../components/SneakerHeadText";
@@ -9,6 +10,7 @@ const sneakerhead = () => {
       <SneakerHeadHero />
       <SneakerHeadText />
       <SneakerHeadImages />
+      <BackToAllProjects />
     </>
   );
 };
