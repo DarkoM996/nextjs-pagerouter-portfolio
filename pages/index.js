@@ -2,7 +2,6 @@ import Head from "next/head";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
 import ProjectSection from "./components/ProjectSection";
 
 export default function Home() {
