@@ -15,6 +15,8 @@ const FurnicoImages = () => {
         <Image
           priority={true}
           src={picture1}
+          width={700}
+          height={700}
           alt="/"
           className="object-cover w-full h-full rounded-3xl"
         />
@@ -23,6 +25,8 @@ const FurnicoImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority={true}
+          width={700}
+          height={700}
           src={picture2}
           alt="/"
           className="object-cover w-full h-full rounded-3xl"
@@ -32,6 +36,8 @@ const FurnicoImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority={true}
+          width={700}
+          height={700}
           src={picture3}
           alt="/"
           className="object-cover w-full h-full rounded-3xl"
@@ -42,6 +48,9 @@ const FurnicoImages = () => {
         <div className="relative w-full h-screen py-4 ">
           <Image
             priority={true}
+            fill
+            width={700}
+            height={700}
             src={picture4}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
@@ -51,6 +60,8 @@ const FurnicoImages = () => {
         <div className="relative w-full h-screen py-4 ">
           <Image
             priority={true}
+            width={700}
+            height={700}
             src={picture5}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
@@ -61,6 +72,8 @@ const FurnicoImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority={true}
+          width={700}
+          height={700}
           src={picture6}
           alt="/"
           className="object-cover w-full h-full rounded-3xl"
@@ -70,6 +83,8 @@ const FurnicoImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority={true}
+          width={700}
+          height={700}
           src={picture7}
           alt="/"
           className="object-cover w-full h-full rounded-3xl"
