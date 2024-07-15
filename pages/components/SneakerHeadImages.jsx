@@ -14,7 +14,7 @@ const SneakerHeadImages = () => {
       {/* Image #1 */}
       <div className="relative w-full h-screen py-12 ">
         <Image
-          priority={true}
+          priority
           width={700}
           height={700}
           src={picture1}
@@ -25,7 +25,7 @@ const SneakerHeadImages = () => {
       {/* Image #2 */}
       <div className="relative w-full h-screen py-4 ">
         <Image
-          priority={true}
+          priority
           width={700}
           height={700}
           src={picture2}
@@ -36,7 +36,7 @@ const SneakerHeadImages = () => {
       {/* Image #3 */}
       <div className="relative w-full h-screen py-4 ">
         <Image
-          priority={true}
+          priority
           width={700}
           height={700}
           src={picture3}
@@ -45,10 +45,10 @@ const SneakerHeadImages = () => {
         />
       </div>
       {/* Image #4 */}
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="relative w-full h-screen py-4 ">
           <Image
-            priority={true}
+            priority
             width={700}
             height={700}
             src={picture4}
@@ -59,7 +59,7 @@ const SneakerHeadImages = () => {
         {/* Image #5 */}
         <div className="relative w-full h-screen py-4 ">
           <Image
-            priority={true}
+            priority
             width={700}
             height={700}
             src={picture5}
@@ -71,7 +71,7 @@ const SneakerHeadImages = () => {
       {/* Image #6 */}
       <div className="relative w-full h-screen py-4 ">
         <Image
-          priority={true}
+          priority
           width={700}
           height={700}
           src={picture6}
@@ -82,7 +82,7 @@ const SneakerHeadImages = () => {
       {/* Image #7 */}
       <div className="relative w-full h-screen py-4 ">
         <Image
-          priority={true}
+          priority
           width={700}
           height={700}
           src={picture7}
