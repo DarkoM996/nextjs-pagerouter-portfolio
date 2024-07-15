@@ -44,7 +44,7 @@ const ProjectSection = () => {
               priority
               fill
               src={picture2}
-              alt="picture1"
+              alt="picture2"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </Link>
@@ -67,7 +67,7 @@ const ProjectSection = () => {
               priority
               fill
               src={picture3}
-              alt="picture1"
+              alt="picture3"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </Link>
@@ -90,7 +90,7 @@ const ProjectSection = () => {
               priority
               fill
               src={picture4}
-              alt="picture1"
+              alt="picture4"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </Link>
@@ -116,7 +116,7 @@ const ProjectSection = () => {
               priority
               fill
               src={picture5}
-              alt="picture1"
+              alt="picture5"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </Link>
