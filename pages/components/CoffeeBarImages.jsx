@@ -12,7 +12,7 @@ const CoffeeBarImages = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
       {/* Image #1 */}
-      <div className="relative w-full h-screen py-12 ">
+      <div className="relative w-full  h-[520px] md:h-[720px] py-12 ">
         <Image
           priority={true}
           src={picture1}
@@ -21,7 +21,7 @@ const CoffeeBarImages = () => {
         />
       </div>
       {/* Image #2 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full  h-[520px] md:h-[720px] py-4 ">
         <Image
           priority={true}
           src={picture2}
@@ -30,7 +30,7 @@ const CoffeeBarImages = () => {
         />
       </div>
       {/* Image #3 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full  h-[520px] md:h-[720px] py-4 ">
         <Image
           priority={true}
           src={picture3}
@@ -45,7 +45,7 @@ const CoffeeBarImages = () => {
             priority={true}
             src={picture4}
             alt="/"
-            className="object-cover w-full h-full rounded-3xl"
+            className="object-cover w-full  h-[520px] md:h-[720px] rounded-3xl"
           />
         </div>
         {/* Image #5 */}
@@ -59,7 +59,7 @@ const CoffeeBarImages = () => {
         </div>
       </div>
       {/* Image #6 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full  h-[520px] md:h-[720px] py-4 ">
         <Image
           priority={true}
           src={picture6}
@@ -68,7 +68,7 @@ const CoffeeBarImages = () => {
         />
       </div>
       {/* Image #7 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority={true}
           src={picture7}
