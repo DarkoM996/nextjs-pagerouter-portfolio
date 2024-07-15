@@ -11,82 +11,82 @@ import picture7 from "../../public/images/furniturewebsite-featured-pic-2.5.jpg"
 const FurnicoImages = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-full min-h-screen relative px-6 py-4">
-      <div className="relative w-full h-screen py-12 ">
+      <div className="relative w-full h-4/5 py-12 ">
         <Image
           priority
           src={picture1}
           width={700}
           height={700}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full  h-[600px] rounded-3xl"
         />
       </div>
       {/* Image #2 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-4/5 py-4 ">
         <Image
           priority
           width={700}
           height={700}
           src={picture2}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full  h-[600px] rounded-3xl"
         />
       </div>
       {/* Image #3 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-4/5 py-4 ">
         <Image
           priority
           width={700}
           height={700}
           src={picture3}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full  h-[600px] rounded-3xl"
         />
       </div>
       {/* Image #4 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="relative w-full h-screen py-4 ">
+        <div className="relative w-full h-4/5 py-4 ">
           <Image
             priority
             width={700}
             height={700}
             src={picture4}
             alt="/"
-            className="object-cover w-full h-full rounded-3xl"
+            className="object-cover w-full  h-[600px] rounded-3xl"
           />
         </div>
         {/* Image #5 */}
-        <div className="relative w-full h-screen py-4 ">
+        <div className="relative w-full h-4/5 py-4 ">
           <Image
             priority
             width={700}
             height={700}
             src={picture5}
             alt="/"
-            className="object-cover w-full h-full rounded-3xl"
+            className="object-cover w-full  h-[600px] rounded-3xl"
           />
         </div>
       </div>
       {/* Image #6 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-4/5 py-4 ">
         <Image
           priority
           width={700}
           height={700}
           src={picture6}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full  h-[600px] rounded-3xl"
         />
       </div>
       {/* Image #7 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-full py-4 ">
         <Image
           priority
           width={700}
           height={700}
           src={picture7}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full h-[600px] rounded-3xl"
         />
       </div>
     </div>
