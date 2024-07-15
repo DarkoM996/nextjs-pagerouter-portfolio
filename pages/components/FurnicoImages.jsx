@@ -22,7 +22,7 @@ const FurnicoImages = () => {
         />
       </div>
       {/* Image #2 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-full py-4">
         <Image
           priority={true}
           width={700}
@@ -33,7 +33,7 @@ const FurnicoImages = () => {
         />
       </div>
       {/* Image #3 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-full py-4 ">
         <Image
           priority={true}
           width={700}
@@ -45,7 +45,7 @@ const FurnicoImages = () => {
       </div>
       {/* Image #4 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="relative w-full h-screen py-4 ">
+        <div className="relative w-full h-full py-4 ">
           <Image
             priority={true}
             width={700}
@@ -56,7 +56,7 @@ const FurnicoImages = () => {
           />
         </div>
         {/* Image #5 */}
-        <div className="relative w-full h-screen py-4 ">
+        <div className="relative w-full h-full  py-4 ">
           <Image
             priority={true}
             width={700}
@@ -68,7 +68,7 @@ const FurnicoImages = () => {
         </div>
       </div>
       {/* Image #6 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-full  py-4 ">
         <Image
           priority={true}
           width={700}
@@ -79,7 +79,7 @@ const FurnicoImages = () => {
         />
       </div>
       {/* Image #7 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-full  py-4 ">
         <Image
           priority={true}
           width={700}
