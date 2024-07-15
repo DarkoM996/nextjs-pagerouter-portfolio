@@ -27,7 +27,15 @@ const AboutSection = () => {
           </p>
           {/* Add a link pointing towards the email */}
           <div className="flex flex-col justify-center items-center w-full h-full">
-            <h2 className="text-4xl text-pretty">My Email</h2>
+            <a
+              href="/"
+              onClick={() =>
+                (window.location = "mailto:darko.mihajlovski96@gmail.com")
+              }
+              className="text-4xl text-pretty"
+            >
+              My Email
+            </a>
           </div>
         </div>
       </div>
