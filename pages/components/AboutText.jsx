@@ -9,9 +9,9 @@ const AboutText = () => {
       <div className="max-w-screen-md mx-auto w-full h-full flex flex-col justify-center items-center gap-8">
         <p className="text-xl text-black font-light ">
           I am Darko Mihajlovski, a creative developer and designer based out of
-          Kumanovo, North Macedonia. I help companies and brands with specific
-          solutions while focusing on taking my work to the next level with
-          quality as the main goal.
+          Kumanovo, North Macedonia. I help companies and brands create
+          beautiful and timeless expressions for the web while pushing for ever
+          increasing quality of work.
         </p>
         <p className="text-xl text-black font-light ">
           I build websites and web apps that focus on clean and minimalistic
@@ -45,7 +45,7 @@ const AboutText = () => {
         <h2 className="text-3xl md:text-4xl lg:text-5xl py-16">
           Technologies I use within my work
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-xl text-primary_customGray-700">
           <p>End-to-end Product Design</p>
           <p>User Experience Design</p>
           <p>Motion Design</p>
