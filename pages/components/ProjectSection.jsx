@@ -18,7 +18,6 @@ const ProjectSection = () => {
             className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
-              priority={true}
               width={700}
               height={700}
               src={picture1}
@@ -42,7 +41,6 @@ const ProjectSection = () => {
             className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
-              priority={true}
               width={700}
               height={700}
               src={picture2}
@@ -66,7 +64,6 @@ const ProjectSection = () => {
             className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
-              priority={true}
               width={700}
               height={700}
               src={picture3}
@@ -90,7 +87,6 @@ const ProjectSection = () => {
             className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
-              priority={true}
               width={700}
               height={700}
               src={picture4}
@@ -117,7 +113,6 @@ const ProjectSection = () => {
             className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
-              priority={true}
               width={700}
               height={700}
               src={picture5}
