@@ -20,21 +20,21 @@ const FurnicoImages = () => {
         />
       </div>
       {/* Image #2 */}
-      <div className="relative w-full h-full py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority
           src={picture2}
           alt="picture2"
-          className="object-cover w-full   h-[520px] md:h-[720px] rounded-3xl"
+          className="object-cover w-full h-full rounded-3xl"
         />
       </div>
       {/* Image #3 */}
-      <div className="relative w-full h-full py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority
           src={picture3}
           alt="picture3"
-          className="object-cover w-full   h-[520px] md:h-[720px] rounded-3xl"
+          className="object-cover w-full h-full rounded-3xl"
         />
       </div>
       {/* Image #4 */}
@@ -44,35 +44,35 @@ const FurnicoImages = () => {
             priority
             src={picture4}
             alt="picture4"
-            className="object-cover w-full   h-[520px] md:h-[720px] rounded-3xl"
+            className="object-cover w-full h-full rounded-3xl"
           />
         </div>
         {/* Image #5 */}
-        <div className="relative w-full h-full py-4 ">
+        <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority
             src={picture5}
             alt="picture5"
-            className="object-cover w-full   h-[520px] md:h-[720px] rounded-3xl"
+            className="object-cover w-full  h-full rounded-3xl"
           />
         </div>
       </div>
       {/* Image #6 */}
-      <div className="relative w-full h-full py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority
           src={picture6}
           alt="picture6"
-          className="object-cover w-full   h-[520px] md:h-[720px] rounded-3xl"
+          className="object-cover w-full  h-full rounded-3xl"
         />
       </div>
       {/* Image #7 */}
-      <div className="relative w-full h-full py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority
           src={picture7}
           alt="picture7"
-          className="object-cover w-full  h-[520px] md:h-[720px] rounded-3xl"
+          className="object-cover w-full h-full rounded-3xl"
         />
       </div>
     </div>
