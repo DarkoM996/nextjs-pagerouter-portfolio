@@ -4,7 +4,7 @@ import backgroundimg from "../../public/images/coffee-bar-concept-version-2.0-vo
 
 const AboutText = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4 lg:py-8">
+    <div className="max-w-screen-md mx-auto w-full h-full relative px-6 py-4 lg:py-8">
       {/* Paragraphs that give explanations */}
       <div className="max-w-screen-md mx-auto w-full h-full flex flex-col justify-center items-center gap-8">
         <p className="text-xl text-black font-light ">
