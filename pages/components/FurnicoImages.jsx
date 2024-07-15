@@ -15,7 +15,7 @@ const FurnicoImages = () => {
         <Image
           priority
           src={picture1}
-          alt="/"
+          alt="picture1"
           className="object-cover w-full  h-[600px] rounded-3xl"
         />
       </div>
@@ -24,7 +24,7 @@ const FurnicoImages = () => {
         <Image
           priority
           src={picture2}
-          alt="/"
+          alt="picture2"
           className="object-cover w-full  h-[600px] rounded-3xl"
         />
       </div>
@@ -33,7 +33,7 @@ const FurnicoImages = () => {
         <Image
           priority
           src={picture3}
-          alt="/"
+          alt="picture3"
           className="object-cover w-full  h-[600px] rounded-3xl"
         />
       </div>
@@ -43,7 +43,7 @@ const FurnicoImages = () => {
           <Image
             priority
             src={picture4}
-            alt="/"
+            alt="picture4"
             className="object-cover w-full  h-[600px] rounded-3xl"
           />
         </div>
@@ -52,7 +52,7 @@ const FurnicoImages = () => {
           <Image
             priority
             src={picture5}
-            alt="/"
+            alt="picture5"
             className="object-cover w-full  h-[600px] rounded-3xl"
           />
         </div>
@@ -62,7 +62,7 @@ const FurnicoImages = () => {
         <Image
           priority
           src={picture6}
-          alt="/"
+          alt="picture6"
           className="object-cover w-full  h-[600px] rounded-3xl"
         />
       </div>
@@ -71,7 +71,7 @@ const FurnicoImages = () => {
         <Image
           priority
           src={picture7}
-          alt="/"
+          alt="picture7"
           className="object-cover w-full h-[600px] rounded-3xl"
         />
       </div>
