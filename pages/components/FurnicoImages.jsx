@@ -48,7 +48,6 @@ const FurnicoImages = () => {
         <div className="relative w-full h-screen py-4 ">
           <Image
             priority={true}
-            fill
             width={700}
             height={700}
             src={picture4}

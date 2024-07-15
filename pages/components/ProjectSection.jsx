@@ -19,8 +19,8 @@ const ProjectSection = () => {
           >
             <Image
               priority
-              width={700}
-              height={700}
+              width={1000}
+              height={1000}
               src={picture1}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -43,8 +43,8 @@ const ProjectSection = () => {
           >
             <Image
               priority
-              width={700}
-              height={700}
+              width={1000}
+              height={1000}
               src={picture2}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -67,8 +67,8 @@ const ProjectSection = () => {
           >
             <Image
               priority
-              width={700}
-              height={700}
+              width={1000}
+              height={1000}
               src={picture3}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -91,8 +91,8 @@ const ProjectSection = () => {
           >
             <Image
               priority
-              width={700}
-              height={700}
+              width={1000}
+              height={1000}
               src={picture4}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -118,8 +118,8 @@ const ProjectSection = () => {
           >
             <Image
               priority
-              width={700}
-              height={700}
+              width={1000}
+              height={1000}
               src={picture5}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
