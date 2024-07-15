@@ -18,7 +18,8 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
-              priority
+              priority={true}
+              fill
               src={picture1}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -40,6 +41,8 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
+              priority={true}
+              fill
               src={picture2}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -61,6 +64,8 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
+              priority={true}
+              fill
               src={picture3}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -82,6 +87,8 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
+              priority={true}
+              fill
               src={picture4}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -106,6 +113,8 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
+              priority={true}
+              fill
               src={picture5}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
