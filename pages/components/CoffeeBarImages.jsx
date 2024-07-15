@@ -39,13 +39,13 @@ const CoffeeBarImages = () => {
         />
       </div>
       {/* Image #4 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-2">
         <div className="relative w-full h-screen py-4 ">
           <Image
             priority={true}
             src={picture4}
             alt="/"
-            className="object-cover w-full  h-[520px] md:h-[720px] rounded-3xl"
+            className="object-cover w-full h-full rounded-3xl"
           />
         </div>
         {/* Image #5 */}
