@@ -15,7 +15,7 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-40">
           <Link
             href="/projects/furnico"
-            className="relative w-full h-[420px] md:h-[720px]"
+            className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
               priority={true}
@@ -39,7 +39,7 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
           <Link
             href="/projects/travellife"
-            className="relative w-full h-[420px] md:h-[720px]"
+            className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
               priority={true}
@@ -63,7 +63,7 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-36">
           <Link
             href="/projects/sneakerhead"
-            className="relative w-full h-[420px] md:h-[720px]"
+            className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
               priority={true}
@@ -87,7 +87,7 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
           <Link
             href="/projects/coffeebar"
-            className="relative w-full h-[420px] md:h-[720px]"
+            className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
               priority={true}
@@ -114,7 +114,7 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-32">
           <Link
             href="/projects/thetomato"
-            className="relative w-full h-[420px] md:h-[720px]"
+            className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
               priority={true}
