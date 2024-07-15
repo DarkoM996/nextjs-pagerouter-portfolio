@@ -2,11 +2,12 @@ import React from "react";
 
 const AboutHero = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4 lg:py-24">
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-start w-full h-full lg:px-32">
-        <h1 className="text-4xl md:text-5xl font-semibold">
-          Product Designer specializing in user-centric innovation and product
-          evolution
+    // In this case h-full is used so the space between the sections is what I needed per design requirements
+    <div className="max-w-screen-md mx-auto w-full h-full relative px-6 py-6">
+      <div className="flex flex-col justify-center items-start gap-6 lg:gap-16 lg:pt-16">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+          UX Engineer and Front End Developer working on user-center innovation
+          and product evolution
         </h1>
       </div>
     </div>
