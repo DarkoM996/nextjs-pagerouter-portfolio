@@ -18,7 +18,7 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
-              priority={true}
+              priority
               fill
               src={picture1}
               alt="picture1"
@@ -41,7 +41,7 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
-              priority={true}
+              priority
               fill
               src={picture2}
               alt="picture1"
@@ -64,7 +64,7 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
-              priority={true}
+              priority
               fill
               src={picture3}
               alt="picture1"
@@ -87,7 +87,7 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
-              priority={true}
+              priority
               fill
               src={picture4}
               alt="picture1"
@@ -113,7 +113,7 @@ const ProjectSection = () => {
             className="relative w-full h-[620px] md:h-[720px]"
           >
             <Image
-              priority={true}
+              priority
               fill
               src={picture5}
               alt="picture1"
