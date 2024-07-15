@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const SneakerHeadImages = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
+    <div className="max-w-screen-xl mx-auto w-full h-full flex flex-col justify-center items-center gap-8 relative px-6 py-4">
       {/* Image #1 */}
       <div className="relative w-full h-screen py-12 ">
         <Image
@@ -83,7 +83,7 @@ const SneakerHeadImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority
-          fill
+          fill={true}
           quality={100}
           src={picture7}
           alt="picture7"
