@@ -16,6 +16,7 @@ const SneakerHeadImages = () => {
         <Image
           priority
           fill
+          quality={100}
           src={picture1}
           alt="picture1"
           className="object-cover w-full h-full rounded-3xl"
@@ -26,6 +27,7 @@ const SneakerHeadImages = () => {
         <Image
           priority
           fill
+          quality={100}
           src={picture2}
           alt="picture2"
           className="object-cover w-full h-full rounded-3xl"
@@ -36,6 +38,7 @@ const SneakerHeadImages = () => {
         <Image
           priority
           fill
+          quality={100}
           src={picture3}
           alt="picture3"
           className="object-cover w-full h-full rounded-3xl"
@@ -47,6 +50,7 @@ const SneakerHeadImages = () => {
           <Image
             priority
             fill
+            quality={100}
             src={picture4}
             alt="picture4"
             className="object-cover w-full h-full rounded-3xl"
@@ -57,6 +61,7 @@ const SneakerHeadImages = () => {
           <Image
             priority
             fill
+            quality={100}
             src={picture5}
             alt="picture5"
             className="object-cover w-full h-full rounded-3xl"
@@ -68,6 +73,7 @@ const SneakerHeadImages = () => {
         <Image
           priority
           fill
+          quality={100}
           src={picture6}
           alt="picture6"
           className="object-cover w-full h-full rounded-3xl"
@@ -78,6 +84,7 @@ const SneakerHeadImages = () => {
         <Image
           priority
           fill
+          quality={100}
           src={picture7}
           alt="picture7"
           className="object-cover w-full h-full rounded-3xl"
