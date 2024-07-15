@@ -15,11 +15,12 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-40">
           <Link
             href="/projects/furnico"
-            className="relative w-full h-[620px] md:h-[720px]"
+            className="relative w-full h-[420px] md:h-[720px]"
           >
             <Image
               priority={true}
               fill
+              quality={100}
               src={picture1}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -38,12 +39,13 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
           <Link
             href="/projects/travellife"
-            className="relative w-full h-[620px] md:h-[720px]"
+            className="relative w-full h-[420px] md:h-[720px]"
           >
             <Image
               priority={true}
               fill
               src={picture2}
+              quality={100}
               alt="picture2"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
@@ -61,11 +63,12 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-36">
           <Link
             href="/projects/sneakerhead"
-            className="relative w-full h-[620px] md:h-[720px]"
+            className="relative w-full h-[420px] md:h-[720px]"
           >
             <Image
               priority={true}
               fill
+              quality={100}
               src={picture3}
               alt="picture3"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -84,11 +87,12 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
           <Link
             href="/projects/coffeebar"
-            className="relative w-full h-[620px] md:h-[720px]"
+            className="relative w-full h-[420px] md:h-[720px]"
           >
             <Image
               priority={true}
               fill
+              quality={100}
               src={picture4}
               alt="picture4"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -110,11 +114,12 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-32">
           <Link
             href="/projects/thetomato"
-            className="relative w-full h-[620px] md:h-[720px]"
+            className="relative w-full h-[420px] md:h-[720px]"
           >
             <Image
               priority={true}
               fill
+              quality={100}
               src={picture5}
               alt="picture5"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
