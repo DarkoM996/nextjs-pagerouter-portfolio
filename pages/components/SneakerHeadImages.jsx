@@ -15,8 +15,7 @@ const SneakerHeadImages = () => {
       <div className="relative w-full h-screen py-12 ">
         <Image
           priority
-          width={700}
-          height={700}
+          fill
           src={picture1}
           alt="picture1"
           className="object-cover w-full h-full rounded-3xl"
@@ -26,8 +25,7 @@ const SneakerHeadImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority
-          width={700}
-          height={700}
+          fill
           src={picture2}
           alt="picture2"
           className="object-cover w-full h-full rounded-3xl"
@@ -37,8 +35,7 @@ const SneakerHeadImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority
-          width={700}
-          height={700}
+          fill
           src={picture3}
           alt="picture3"
           className="object-cover w-full h-full rounded-3xl"
@@ -49,8 +46,7 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-screen py-4 ">
           <Image
             priority
-            width={700}
-            height={700}
+            fill
             src={picture4}
             alt="picture4"
             className="object-cover w-full h-full rounded-3xl"
@@ -60,8 +56,7 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-screen py-4 ">
           <Image
             priority
-            width={700}
-            height={700}
+            fill
             src={picture5}
             alt="picture5"
             className="object-cover w-full h-full rounded-3xl"
@@ -72,8 +67,7 @@ const SneakerHeadImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority
-          width={700}
-          height={700}
+          fill
           src={picture6}
           alt="picture6"
           className="object-cover w-full h-full rounded-3xl"
@@ -83,8 +77,7 @@ const SneakerHeadImages = () => {
       <div className="relative w-full h-screen py-4 ">
         <Image
           priority
-          width={700}
-          height={700}
+          fill
           src={picture7}
           alt="picture7"
           className="object-cover w-full h-full rounded-3xl"
