@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const CoffeeBarImages = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
+    <div className="max-w-screen-xl mx-auto w-full h-full flex flex-col justify-center items-center gap-4 relative px-6 py-4">
       {/* Image #1 */}
       <div className="relative w-full  h-[520px] md:h-[720px] py-12 ">
         <Image
