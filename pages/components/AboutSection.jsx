@@ -16,7 +16,10 @@ const AboutSection = () => {
             level with quality as the main goal.
           </p>
           {/* Link towards the other page */}
-          <Link href="/about" className="text-2xl font-semibold items-start">
+          <Link
+            href="/about"
+            className="text-2xl font-semibold items-start hover:underline"
+          >
             More about me
           </Link>
         </div>
