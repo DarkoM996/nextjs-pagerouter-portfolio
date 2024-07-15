@@ -42,7 +42,7 @@ const AboutText = () => {
       </div>
       {/* Section about technologies used with icons from react icons */}
       <div className="max-w-screen-md mx-auto w-full h-full relative px-6 py-4">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl py-8">Disciplines</h2>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl py-10">Disciplines</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xl text-primary_customGray-900">
           <p>Front-End</p>
           <p>Web Design</p>
