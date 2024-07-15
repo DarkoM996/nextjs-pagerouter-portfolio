@@ -18,7 +18,7 @@ const TravelLifeImages = () => {
           priority={true}
           src={picture1}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full h-[420px] md:h-[720px] rounded-3xl"
         />
       </div>
       {/* Image #2 */}
@@ -27,7 +27,7 @@ const TravelLifeImages = () => {
           priority={true}
           src={picture2}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full  h-[420px] md:h-[720px] rounded-3xl"
         />
       </div>
       {/* Image #3 */}
@@ -36,7 +36,7 @@ const TravelLifeImages = () => {
           priority={true}
           src={picture3}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full  h-[420px] md:h-[720px] rounded-3xl"
         />
       </div>
       {/* Image #4 */}
@@ -46,7 +46,7 @@ const TravelLifeImages = () => {
             priority={true}
             src={picture4}
             alt="/"
-            className="object-cover w-full h-full rounded-3xl"
+            className="object-cover w-full  h-[420px] md:h-[720px] rounded-3xl"
           />
         </div>
         {/* Image #5 */}
@@ -55,7 +55,7 @@ const TravelLifeImages = () => {
             priority={true}
             src={picture5}
             alt="/"
-            className="object-cover w-full h-full rounded-3xl"
+            className="object-cover w-full  h-[420px] md:h-[720px] rounded-3xl"
           />
         </div>
       </div>
@@ -65,7 +65,7 @@ const TravelLifeImages = () => {
           priority={true}
           src={picture6}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full  h-[420px] md:h-[720px] rounded-3xl"
         />
       </div>
       {/* Image #7 */}
@@ -74,7 +74,7 @@ const TravelLifeImages = () => {
           priority={true}
           src={picture7}
           alt="/"
-          className="object-cover w-full h-full rounded-3xl"
+          className="object-cover w-full  h-[420px] md:h-[720px] rounded-3xl"
         />
       </div>
     </div>
