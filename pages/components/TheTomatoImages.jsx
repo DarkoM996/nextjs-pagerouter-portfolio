@@ -10,7 +10,7 @@ const TheTomatoImages = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-full h-full relative px-6 py-4">
       {/* Image #1 */}
-      <div className="relative w-full h-screen py-12 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-12 ">
         <Image
           priority={true}
           src={picture1}
@@ -19,7 +19,7 @@ const TheTomatoImages = () => {
         />
       </div>
       {/* Image #2 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority={true}
           src={picture2}
@@ -28,7 +28,7 @@ const TheTomatoImages = () => {
         />
       </div>
       {/* Image #3 */}
-      <div className="relative w-full h-screen py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority={true}
           src={picture3}
@@ -38,7 +38,7 @@ const TheTomatoImages = () => {
       </div>
       {/* Image #4 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="relative w-full h-screen py-4 ">
+        <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
             src={picture4}
@@ -47,7 +47,7 @@ const TheTomatoImages = () => {
           />
         </div>
         {/* Image #5 */}
-        <div className="relative w-full h-screen py-4 ">
+        <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
             src={picture5}
