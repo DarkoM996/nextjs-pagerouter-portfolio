@@ -4,36 +4,34 @@ import backgroundimg from "../../public/images/coffee-bar-concept-version-2.0-vo
 
 const AboutText = () => {
   return (
-    <div className="max-w-screen-md mx-auto w-full h-full relative px-6 py-4 lg:py-8">
+    <div className="max-w-screen-md mx-auto w-full h-full relative  flex flex-col justify-center items-start gap-6 px-6 py-8">
       {/* Paragraphs that give explanations */}
-      <div className="max-w-screen-md mx-auto w-full h-full flex flex-col justify-center items-center gap-8">
-        <p className="text-xl text-black font-light ">
-          I am Darko Mihajlovski, a creative developer and designer based out of
-          Kumanovo, North Macedonia. I help companies and brands create
-          beautiful and timeless expressions for the web while pushing for ever
-          increasing quality of work.
-        </p>
-        <p className="text-xl text-black font-light ">
-          I build websites and web apps that focus on clean and minimalistic
-          design. My focus is on clean and minimalistic design with focus on
-          well placed animations, transitions as well as interaction.
-        </p>
-        <p className="text-xl text-black font-light ">
-          From marketing websites that inspire, to e-commerce that convinces and
-          web apps that are truly beneficial. All while focusing on clean and
-          minimalistic design to deliver use friendly designs for the web.
-        </p>
-        <p className="text-xl text-black font-light ">
-          With my knowledge as a digital designer, I make sure that a visual
-          identity can be used throughout all digital touchpoints in an
-          accessible and user-friendly way. I build scalable websites from
-          scratch that fit seamlessly with design. My focus is on clean and
-          minimalistic design with carefully placed animations as well as
-          transitions
-        </p>
-      </div>
+      <p className="text-xl text-black font-light ">
+        I am Darko Mihajlovski, a creative developer and designer based out of
+        Kumanovo, North Macedonia. I help companies and brands create beautiful
+        and timeless expressions for the web while pushing for ever increasing
+        quality of work.
+      </p>
+      <p className="text-xl text-black font-light ">
+        I build websites and web apps that focus on clean and minimalistic
+        design. My focus is on clean and minimalistic design with focus on well
+        placed animations, transitions as well as interaction.
+      </p>
+      <p className="text-xl text-black font-light ">
+        From marketing websites that inspire, to e-commerce that convinces and
+        web apps that are truly beneficial. All while focusing on clean and
+        minimalistic design to deliver use friendly designs for the web.
+      </p>
+      <p className="text-xl text-black font-light ">
+        With my knowledge as a digital designer, I make sure that a visual
+        identity can be used throughout all digital touchpoints in an accessible
+        and user-friendly way. I build scalable websites from scratch that fit
+        seamlessly with design. My focus is on clean and minimalistic design
+        with carefully placed animations as well as transitions
+      </p>
+
       {/* Image that can be changed  */}
-      <div className="relative w-full h-screen py-24">
+      <div className="relative w-full h-screen py-16">
         <Image
           src={backgroundimg}
           alt="/"
@@ -59,3 +57,5 @@ const AboutText = () => {
 };
 
 export default AboutText;
+
+//
