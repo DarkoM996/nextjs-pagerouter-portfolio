@@ -15,8 +15,6 @@ const FurnicoImages = () => {
         <Image
           priority
           src={picture1}
-          width={700}
-          height={700}
           alt="/"
           className="object-cover w-full  h-[600px] rounded-3xl"
         />
@@ -25,8 +23,6 @@ const FurnicoImages = () => {
       <div className="relative w-full h-4/5 py-4 ">
         <Image
           priority
-          width={700}
-          height={700}
           src={picture2}
           alt="/"
           className="object-cover w-full  h-[600px] rounded-3xl"
@@ -36,8 +32,6 @@ const FurnicoImages = () => {
       <div className="relative w-full h-4/5 py-4 ">
         <Image
           priority
-          width={700}
-          height={700}
           src={picture3}
           alt="/"
           className="object-cover w-full  h-[600px] rounded-3xl"
@@ -48,8 +42,6 @@ const FurnicoImages = () => {
         <div className="relative w-full h-4/5 py-4 ">
           <Image
             priority
-            width={700}
-            height={700}
             src={picture4}
             alt="/"
             className="object-cover w-full  h-[600px] rounded-3xl"
@@ -59,8 +51,6 @@ const FurnicoImages = () => {
         <div className="relative w-full h-4/5 py-4 ">
           <Image
             priority
-            width={700}
-            height={700}
             src={picture5}
             alt="/"
             className="object-cover w-full  h-[600px] rounded-3xl"
@@ -71,8 +61,6 @@ const FurnicoImages = () => {
       <div className="relative w-full h-4/5 py-4 ">
         <Image
           priority
-          width={700}
-          height={700}
           src={picture6}
           alt="/"
           className="object-cover w-full  h-[600px] rounded-3xl"
@@ -82,8 +70,6 @@ const FurnicoImages = () => {
       <div className="relative w-full h-full py-4 ">
         <Image
           priority
-          width={700}
-          height={700}
           src={picture7}
           alt="/"
           className="object-cover w-full h-[600px] rounded-3xl"
