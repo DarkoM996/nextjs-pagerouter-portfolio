@@ -18,7 +18,7 @@ const SneakerHeadImages = () => {
           width={700}
           height={700}
           src={picture1}
-          alt="/"
+          alt="picture1"
           className="object-cover w-full h-full rounded-3xl"
         />
       </div>
@@ -29,7 +29,7 @@ const SneakerHeadImages = () => {
           width={700}
           height={700}
           src={picture2}
-          alt="/"
+          alt="picture2"
           className="object-cover w-full h-full rounded-3xl"
         />
       </div>
@@ -40,7 +40,7 @@ const SneakerHeadImages = () => {
           width={700}
           height={700}
           src={picture3}
-          alt="/"
+          alt="picture3"
           className="object-cover w-full h-full rounded-3xl"
         />
       </div>
@@ -52,7 +52,7 @@ const SneakerHeadImages = () => {
             width={700}
             height={700}
             src={picture4}
-            alt="/"
+            alt="picture4"
             className="object-cover w-full h-full rounded-3xl"
           />
         </div>
@@ -63,7 +63,7 @@ const SneakerHeadImages = () => {
             width={700}
             height={700}
             src={picture5}
-            alt="/"
+            alt="picture5"
             className="object-cover w-full h-full rounded-3xl"
           />
         </div>
@@ -75,7 +75,7 @@ const SneakerHeadImages = () => {
           width={700}
           height={700}
           src={picture6}
-          alt="/"
+          alt="picture6"
           className="object-cover w-full h-full rounded-3xl"
         />
       </div>
@@ -86,7 +86,7 @@ const SneakerHeadImages = () => {
           width={700}
           height={700}
           src={picture7}
-          alt="/"
+          alt="picture7"
           className="object-cover w-full h-full rounded-3xl"
         />
       </div>
