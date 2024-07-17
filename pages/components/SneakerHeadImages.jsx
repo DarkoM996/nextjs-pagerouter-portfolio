@@ -42,7 +42,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             height={600}
-            width={900}
+            width={600}
             quality={100}
             src={picture3}
             alt="/"
@@ -55,7 +55,7 @@ const SneakerHeadImages = () => {
             <Image
               priority={true}
               height={600}
-              width={900}
+              width={600}
               quality={100}
               src={picture4}
               alt="/"
@@ -67,7 +67,7 @@ const SneakerHeadImages = () => {
             <Image
               priority={true}
               height={600}
-              width={900}
+              width={600}
               quality={100}
               src={picture5}
               alt="/"
@@ -80,7 +80,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             height={600}
-            width={900}
+            width={600}
             quality={100}
             src={picture6}
             alt="/"
@@ -92,7 +92,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             height={600}
-            width={900}
+            width={600}
             quality={100}
             src={picture7}
             alt="/"
