@@ -18,6 +18,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             fill
+            prefetch={false}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture1}
             alt="/"
@@ -29,6 +30,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             fill
+            prefetch={false}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture2}
             alt="/"
@@ -40,6 +42,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             fill
+            prefetch={false}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture3}
             alt="/"
@@ -52,6 +55,7 @@ const SneakerHeadImages = () => {
             <Image
               priority={true}
               fill
+              prefetch={false}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture4}
               alt="/"
@@ -63,6 +67,7 @@ const SneakerHeadImages = () => {
             <Image
               priority={true}
               fill
+              prefetch={false}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture5}
               alt="/"
@@ -75,6 +80,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             fill
+            prefetch={false}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture6}
             alt="/"
@@ -86,6 +92,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             fill
+            prefetch={false}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture7}
             alt="/"
