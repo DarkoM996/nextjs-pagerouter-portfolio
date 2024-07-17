@@ -16,7 +16,7 @@ const SneakerHeadImages = () => {
         {/* Image #1 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-12 ">
           <Image
-            priority={true}
+            priority
             width={1200}
             height={624}
             sizes="(max-width: 768px) 400px, 700px"
@@ -28,7 +28,7 @@ const SneakerHeadImages = () => {
         {/* Image #2 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
-            priority={true}
+            priority
             width={1200}
             height={624}
             sizes="(max-width: 768px) 400px, 700px"
@@ -40,7 +40,7 @@ const SneakerHeadImages = () => {
         {/* Image #3 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
-            priority={true}
+            priority
             width={1200}
             height={624}
             sizes="(max-width: 768px) 400px, 700px"
@@ -53,7 +53,7 @@ const SneakerHeadImages = () => {
         <div className="grid grid-cols-1 gap-6">
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
-              priority={true}
+              priority
               width={1200}
               height={624}
               sizes="(max-width: 768px) 400px, 700px"
@@ -66,7 +66,7 @@ const SneakerHeadImages = () => {
           {/* Image #5 */}
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
-              priority={true}
+              priority
               width={1200}
               height={624}
               sizes="(max-width: 768px) 400px, 700px"
@@ -79,7 +79,7 @@ const SneakerHeadImages = () => {
         {/* Image #6 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
-            priority={true}
+            priority
             width={1200}
             height={624}
             sizes="(max-width: 768px) 400px, 700px"
@@ -91,7 +91,7 @@ const SneakerHeadImages = () => {
         {/* Image #7 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
-            priority={true}
+            priority
             width={1200}
             height={624}
             sizes="(max-width: 768px) 400px, 700px"
