@@ -19,6 +19,7 @@ const SneakerHeadImages = () => {
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             loading="eager"
+            quality={100}
             src={picture1}
             alt="/"
             className="object-cover w-full h-full rounded-3xl bg-center"
@@ -29,6 +30,7 @@ const SneakerHeadImages = () => {
           <Image
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            quality={100}
             loading="eager"
             src={picture2}
             alt="/"
@@ -41,6 +43,7 @@ const SneakerHeadImages = () => {
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             loading="eager"
+            quality={100}
             src={picture3}
             alt="/"
             className="object-cover w-full h-[500px] rounded-3xl bg-center"
@@ -54,6 +57,7 @@ const SneakerHeadImages = () => {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               loading="eager"
               src={picture4}
+              quality={100}
               alt="/"
               className="object-cover w-full h-full rounded-3xl"
             />
@@ -64,6 +68,7 @@ const SneakerHeadImages = () => {
               priority={true}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               loading="eager"
+              quality={100}
               src={picture5}
               alt="/"
               className="object-cover w-full h-full rounded-3xl"
@@ -76,6 +81,7 @@ const SneakerHeadImages = () => {
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             loading="eager"
+            quality={100}
             src={picture6}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
@@ -87,6 +93,7 @@ const SneakerHeadImages = () => {
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             loading="eager"
+            quality={100}
             src={picture7}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
