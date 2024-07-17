@@ -39,10 +39,12 @@ const ProjectSection = () => {
             className="relative w-full h-[520px] md:h-[720px]"
           >
             <Image
-              priority={true}
+              priority
+              width={535}
+              height={700}
               src={picture2}
               alt="picture2"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full h-[520px] md:h-[720px] object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </Link>
           <div className="flex flex-col justify-center items-center gap-2">
@@ -56,15 +58,12 @@ const ProjectSection = () => {
         </div>
         {/* Project #3 */}
         <div className="flex flex-col justify-center items-center gap-4 md:mb-36">
-          <Link
-            href="/projects/sneakerhead"
-            className="relative w-full h-[520px] md:h-[720px]"
-          >
+          <Link href="/projects/sneakerhead" className="relative w-full h-full">
             <Image
               priority={true}
               src={picture3}
               alt="picture3"
-              className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
+              className="w-full h-[520px] md:h-[720px] object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </Link>
           <div className="flex flex-col justify-center items-center gap-2">
