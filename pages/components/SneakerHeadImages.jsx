@@ -19,6 +19,7 @@ const SneakerHeadImages = () => {
             priority={true}
             width={1200}
             height={624}
+            sizes="(max-width: 768px) 400px, 700px"
             src={picture1}
             alt={picture1}
             className="object-cover w-full h-full rounded-3xl bg-center"
@@ -30,6 +31,7 @@ const SneakerHeadImages = () => {
             priority={true}
             width={1200}
             height={624}
+            sizes="(max-width: 768px) 400px, 700px"
             src={picture2}
             alt={picture2}
             className="object-cover w-full h-full rounded-3xl bg-center"
@@ -41,6 +43,7 @@ const SneakerHeadImages = () => {
             priority={true}
             width={1200}
             height={624}
+            sizes="(max-width: 768px) 400px, 700px"
             src={picture3}
             alt={picture3}
             className="object-cover w-full h-[500px] rounded-3xl bg-center"
@@ -53,6 +56,7 @@ const SneakerHeadImages = () => {
               priority={true}
               width={1200}
               height={624}
+              sizes="(max-width: 768px) 400px, 700px"
               src={picture4}
               quality={100}
               alt={picture4}
@@ -65,6 +69,7 @@ const SneakerHeadImages = () => {
               priority={true}
               width={1200}
               height={624}
+              sizes="(max-width: 768px) 400px, 700px"
               src={picture5}
               alt={picture5}
               className="object-cover w-full h-full rounded-3xl"
@@ -77,6 +82,7 @@ const SneakerHeadImages = () => {
             priority={true}
             width={1200}
             height={624}
+            sizes="(max-width: 768px) 400px, 700px"
             src={picture6}
             alt={picture6}
             className="object-cover w-full h-full rounded-3xl"
@@ -88,6 +94,7 @@ const SneakerHeadImages = () => {
             priority={true}
             width={1200}
             height={624}
+            sizes="(max-width: 768px) 400px, 700px"
             src={picture7}
             alt={picture7}
             className="object-cover w-full h-full rounded-3xl"
