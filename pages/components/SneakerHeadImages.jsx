@@ -17,11 +17,12 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-12 ">
           <Image
             priority={true}
-            width={700}
-            height={600}
-            quality={100}
             src={picture1}
-            alt="/"
+            alt={projectimage}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
             className="object-cover w-full h-full rounded-3xl bg-center"
           />
         </div>
@@ -29,11 +30,12 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            width={700}
-            height={600}
-            quality={100}
             src={picture2}
-            alt="/"
+            alt={projectimage}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
             className="object-cover w-full h-full rounded-3xl bg-center"
           />
         </div>
@@ -41,11 +43,12 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            width={700}
-            height={600}
-            quality={100}
             src={picture3}
-            alt="/"
+            alt={projectimage}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
             className="object-cover w-full h-[500px] rounded-3xl bg-center"
           />
         </div>
@@ -54,11 +57,13 @@ const SneakerHeadImages = () => {
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
               priority={true}
-              width={700}
-              height={600}
               src={picture4}
               quality={100}
-              alt="/"
+              alt={projectimage}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
               className="object-cover w-full h-full rounded-3xl"
             />
           </div>
@@ -66,11 +71,12 @@ const SneakerHeadImages = () => {
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
               priority={true}
-              width={700}
-              height={600}
-              quality={100}
               src={picture5}
-              alt="/"
+              alt={projectimage}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
               className="object-cover w-full h-full rounded-3xl"
             />
           </div>
@@ -79,11 +85,12 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            width={700}
-            height={600}
-            quality={100}
             src={picture6}
-            alt="/"
+            alt={projectimage}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
             className="object-cover w-full h-full rounded-3xl"
           />
         </div>
@@ -91,11 +98,12 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            width={700}
-            height={600}
-            quality={100}
             src={picture7}
-            alt="/"
+            alt={projectimage}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
             className="object-cover w-full h-full rounded-3xl"
           />
         </div>
