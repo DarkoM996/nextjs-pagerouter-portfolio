@@ -8,7 +8,7 @@ import picture6 from "../../public/images/sneakerhead-eccomerce-website-featured
 import picture7 from "../../public/images/sneakerhead-eccomerce-website-featured-picture-2.jpg";
 import Image from "next/image";
 
-const SneakerHeadImages = ({ priority }) => {
+const SneakerHeadImages = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-full h-full flex flex-col justify-center items-center gap-8 relative px-6 py-4">
       {/* Grid */}
@@ -16,11 +16,10 @@ const SneakerHeadImages = ({ priority }) => {
         {/* Image #1 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-12 ">
           <Image
-            priority={!!priority}
+            priority
             src={picture1}
             width={1223}
             height={624}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt={picture1}
             className="object-cover w-full h-full rounded-3xl bg-center"
           />
@@ -28,8 +27,7 @@ const SneakerHeadImages = ({ priority }) => {
         {/* Image #2 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
-            priority={!!priority}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
             src={picture2}
             alt={picture2}
             className="object-cover w-full h-full rounded-3xl bg-center"
@@ -38,19 +36,17 @@ const SneakerHeadImages = ({ priority }) => {
         {/* Image #3 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
-            priority={!!priority}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
             src={picture3}
             alt={picture3}
             className="object-cover w-full h-[500px] rounded-3xl bg-center"
           />
         </div>
         {/* Image #4 */}
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
-              priority={!!priority}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
               src={picture4}
               quality={100}
               alt={picture4}
@@ -60,8 +56,7 @@ const SneakerHeadImages = ({ priority }) => {
           {/* Image #5 */}
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
-              priority={!!priority}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
               src={picture5}
               alt={picture5}
               className="object-cover w-full h-full rounded-3xl"
@@ -71,8 +66,7 @@ const SneakerHeadImages = ({ priority }) => {
         {/* Image #6 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
-            priority={!!priority}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
             src={picture6}
             alt={picture6}
             className="object-cover w-full h-full rounded-3xl"
@@ -81,7 +75,7 @@ const SneakerHeadImages = ({ priority }) => {
         {/* Image #7 */}
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
-            priority={!!priority}
+            priority
             src={picture7}
             alt={picture7}
             className="object-cover w-full h-full rounded-3xl"
