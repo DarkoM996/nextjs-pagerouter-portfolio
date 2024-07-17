@@ -19,7 +19,6 @@ const SneakerHeadImages = () => {
             priority={true}
             src={picture1}
             alt={picture1}
-            fill
             sizes="100vw"
             className="object-cover w-full h-full rounded-3xl bg-center"
           />
@@ -28,7 +27,6 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            fill
             sizes="100vw"
             src={picture2}
             alt={picture2}
@@ -39,7 +37,6 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            fill
             sizes="100vw"
             src={picture3}
             alt={picture3}
@@ -51,15 +48,10 @@ const SneakerHeadImages = () => {
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
               priority={true}
-              fill
               sizes="100vw"
               src={picture4}
               quality={100}
               alt={picture4}
-              style={{
-                maxWidth: "100%",
-                height: "auto",
-              }}
               className="object-cover w-full h-full rounded-3xl"
             />
           </div>
@@ -67,7 +59,6 @@ const SneakerHeadImages = () => {
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
               priority={true}
-              fill
               sizes="100vw"
               src={picture5}
               alt={picture5}
@@ -79,7 +70,6 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            fill
             sizes="100vw"
             src={picture6}
             alt={picture6}
@@ -90,7 +80,6 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            fill
             sizes="100vw"
             src={picture7}
             alt={picture7}
