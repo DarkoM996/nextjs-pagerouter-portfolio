@@ -19,6 +19,7 @@ const SneakerHeadImages = () => {
             priority
             width={1200}
             height={624}
+            placeholder="blur"
             sizes="(max-width: 768px) 400px, 700px"
             src={picture1}
             alt={picture1}
@@ -30,7 +31,7 @@ const SneakerHeadImages = () => {
           <Image
             priority
             width={1200}
-            height={624}
+            height={600}
             sizes="(max-width: 768px) 400px, 700px"
             src={picture2}
             alt={picture2}
@@ -43,6 +44,7 @@ const SneakerHeadImages = () => {
             priority
             width={1200}
             height={624}
+            placeholder="blur"
             sizes="(max-width: 768px) 400px, 700px"
             src={picture3}
             alt={picture3}
@@ -56,6 +58,7 @@ const SneakerHeadImages = () => {
               priority
               width={1200}
               height={624}
+              placeholder="blur"
               sizes="(max-width: 768px) 400px, 700px"
               src={picture4}
               quality={100}
@@ -69,6 +72,7 @@ const SneakerHeadImages = () => {
               priority
               width={1200}
               height={624}
+              placeholder="blur"
               sizes="(max-width: 768px) 400px, 700px"
               src={picture5}
               alt={picture5}
@@ -82,6 +86,7 @@ const SneakerHeadImages = () => {
             priority
             width={1200}
             height={624}
+            placeholder="blur"
             sizes="(max-width: 768px) 400px, 700px"
             src={picture6}
             alt={picture6}
@@ -94,6 +99,7 @@ const SneakerHeadImages = () => {
             priority
             width={1200}
             height={624}
+            placeholder="blur"
             sizes="(max-width: 768px) 400px, 700px"
             src={picture7}
             alt={picture7}
