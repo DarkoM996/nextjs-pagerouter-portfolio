@@ -17,9 +17,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-12 ">
           <Image
             priority={true}
-            height={600}
-            width={900}
-            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="eager"
             src={picture1}
             alt="/"
             className="object-cover w-full h-full rounded-3xl bg-center"
@@ -29,9 +28,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            height={600}
-            width={900}
-            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="eager"
             src={picture2}
             alt="/"
             className="object-cover w-full h-full rounded-3xl bg-center"
@@ -41,9 +39,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            height={600}
-            width={600}
-            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="eager"
             src={picture3}
             alt="/"
             className="object-cover w-full h-[500px] rounded-3xl bg-center"
@@ -54,9 +51,8 @@ const SneakerHeadImages = () => {
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
               priority={true}
-              height={600}
-              width={600}
-              quality={100}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              loading="eager"
               src={picture4}
               alt="/"
               className="object-cover w-full h-full rounded-3xl"
@@ -66,9 +62,8 @@ const SneakerHeadImages = () => {
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
               priority={true}
-              height={600}
-              width={600}
-              quality={100}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              loading="eager"
               src={picture5}
               alt="/"
               className="object-cover w-full h-full rounded-3xl"
@@ -79,9 +74,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            height={600}
-            width={600}
-            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="eager"
             src={picture6}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
@@ -91,9 +85,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
-            height={600}
-            width={600}
-            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="eager"
             src={picture7}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
