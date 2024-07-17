@@ -17,6 +17,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-12 ">
           <Image
             priority={true}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture1}
             alt="/"
             className="object-cover w-full h-full rounded-3xl bg-center"
@@ -26,6 +28,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture2}
             alt="/"
             className="object-cover w-full h-full rounded-3xl bg-center"
@@ -35,6 +39,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture3}
             alt="/"
             className="object-cover w-full h-[500px] rounded-3xl bg-center"
@@ -45,6 +51,8 @@ const SneakerHeadImages = () => {
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
               priority={true}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture4}
               alt="/"
               className="object-cover w-full h-full rounded-3xl"
@@ -54,6 +62,8 @@ const SneakerHeadImages = () => {
           <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
             <Image
               priority={true}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture5}
               alt="/"
               className="object-cover w-full h-full rounded-3xl"
@@ -64,6 +74,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture6}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
@@ -73,6 +85,8 @@ const SneakerHeadImages = () => {
         <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority={true}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={picture7}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
