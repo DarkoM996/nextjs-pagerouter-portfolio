@@ -14,20 +14,20 @@ const SneakerHeadImages = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 w- gap-6">
         {/* Image #1 */}
-        <div className="relative w-full h-[520px] md:h-[720px] py-12 ">
+        <div className="relative w-full h-full py-12 ">
           <Image
             priority
-            width={1200}
-            height={624}
             placeholder="blur"
-            sizes="(max-width: 768px) 400px, 700px"
+            width={700}
+            height={520}
+            sizes=""
             src={picture1}
             alt={picture1}
             className="object-cover w-full h-full rounded-3xl bg-center"
           />
         </div>
         {/* Image #2 */}
-        <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
+        <div className="relative w-full h-full py-4 ">
           <Image
             priority
             width={1200}
@@ -39,13 +39,13 @@ const SneakerHeadImages = () => {
           />
         </div>
         {/* Image #3 */}
-        <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
+        <div className="relative w-full h-full py-4 ">
           <Image
             priority
-            width={1200}
-            height={624}
             placeholder="blur"
-            sizes="(max-width: 768px) 400px, 700px"
+            width={700}
+            height={520}
+            sizes=""
             src={picture3}
             alt={picture3}
             className="object-cover w-full h-[500px] rounded-3xl bg-center"
@@ -53,7 +53,7 @@ const SneakerHeadImages = () => {
         </div>
         {/* Image #4 */}
         <div className="grid grid-cols-1 gap-6">
-          <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
+          <div className="relative w-full h-full py-4 ">
             <Image
               priority
               width={1200}
@@ -67,7 +67,7 @@ const SneakerHeadImages = () => {
             />
           </div>
           {/* Image #5 */}
-          <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
+          <div className="relative w-full h-full py-4 ">
             <Image
               priority
               width={1200}
@@ -81,26 +81,26 @@ const SneakerHeadImages = () => {
           </div>
         </div>
         {/* Image #6 */}
-        <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
+        <div className="relative w-full h-full py-4 ">
           <Image
             priority
-            width={1200}
-            height={624}
             placeholder="blur"
-            sizes="(max-width: 768px) 400px, 700px"
+            width={700}
+            height={520}
+            sizes=""
             src={picture6}
             alt={picture6}
             className="object-cover w-full h-full rounded-3xl"
           />
         </div>
         {/* Image #7 */}
-        <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
+        <div className="relative w-full h-full py-4 ">
           <Image
             priority
-            width={1200}
-            height={624}
             placeholder="blur"
-            sizes="(max-width: 768px) 400px, 700px"
+            width={700}
+            height={520}
+            sizes=""
             src={picture7}
             alt={picture7}
             className="object-cover w-full h-full rounded-3xl"
