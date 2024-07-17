@@ -14,17 +14,18 @@ const SneakerHeadImages = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 w- gap-6">
         {/* Image #1 */}
-        <div className="relative w-full h-full py-12 ">
-          <Image
-            priority
-            placeholder="blur"
-            width={700}
-            height={520}
-            sizes=""
-            src={picture1}
-            alt={picture1}
-            className="object-cover w-full h-full rounded-3xl bg-center"
-          />
+        <div className="w-full h-full py-12 ">
+          <div className="relative w-full h-[520px] px-8 py-6">
+            <Image
+              priority
+              placeholder="blur"
+              fill
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              src={picture1}
+              alt={picture1}
+              className="object-cover w-full h-full rounded-3xl bg-center"
+            />
+          </div>
         </div>
         {/* Image #2 */}
         <div className="relative w-full h-full py-4 ">
@@ -44,7 +45,7 @@ const SneakerHeadImages = () => {
             priority
             placeholder="blur"
             width={700}
-            height={520}
+            height
             sizes=""
             src={picture3}
             alt={picture3}
@@ -86,7 +87,7 @@ const SneakerHeadImages = () => {
             priority
             placeholder="blur"
             width={700}
-            height={520}
+            height
             sizes=""
             src={picture6}
             alt={picture6}
@@ -99,7 +100,7 @@ const SneakerHeadImages = () => {
             priority
             placeholder="blur"
             width={700}
-            height={520}
+            height
             sizes=""
             src={picture7}
             alt={picture7}
