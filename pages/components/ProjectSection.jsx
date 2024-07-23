@@ -19,8 +19,6 @@ const ProjectSection = () => {
           >
             <Image
               priority={true}
-              width={600}
-              heig={600}
               src={picture1}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
