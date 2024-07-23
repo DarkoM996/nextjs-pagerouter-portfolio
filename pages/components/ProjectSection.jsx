@@ -37,7 +37,7 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-22">
           <Link
             href="/projects/travellife"
-            className="relative w-fullh-[420px] md:h-[720px]"
+            className="relative w-full h-[420px] md:h-[720px]"
           >
             <Image
               priority={true}
