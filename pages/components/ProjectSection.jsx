@@ -20,7 +20,7 @@ const ProjectSection = () => {
             <Image
               priority={true}
               width={600}
-              height={600}
+              heig={600}
               src={picture1}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -43,8 +43,6 @@ const ProjectSection = () => {
           >
             <Image
               priority={true}
-              width={600}
-              height={600}
               src={picture2}
               alt="picture2"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -67,8 +65,6 @@ const ProjectSection = () => {
           >
             <Image
               priority={true}
-              width={600}
-              height={600}
               src={picture3}
               alt="picture3"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -91,8 +87,6 @@ const ProjectSection = () => {
           >
             <Image
               priority={true}
-              width={600}
-              height={600}
               src={picture4}
               alt="picture4"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -115,8 +109,6 @@ const ProjectSection = () => {
           <Link href="/projects/thetomato" className="relative w-full h-full">
             <Image
               priority={true}
-              width={600}
-              height={600}
               src={picture5}
               alt="picture5"
               className="w-full  h-[320px] md:h-[720px] object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
