@@ -10,8 +10,8 @@ import picture7 from "../../public/images/furniturewebsite-featured-pic(optimize
 
 const FurnicoImages = () => {
   return (
-    <div className="max-w-screen-md mx-auto w-full h-full flex flex-col justify-between items-center gap-4 relative px-6 py-4">
-      <div className="relative w-full  h-[320px] md:h-[520px] py-12 ">
+    <div className="max-w-screen-xl mx-auto w-full h-full flex flex-col justify-between items-center gap-4 relative px-6 py-4">
+      <div className="relative w-full  h-[520px] md:h-[720px] py-12 ">
         <Image
           priority
           src={picture1}
@@ -20,7 +20,7 @@ const FurnicoImages = () => {
         />
       </div>
       {/* Image #2 */}
-      <div className="relative w-full h-[320px] md:h-[520px] py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority
           src={picture2}
@@ -29,7 +29,7 @@ const FurnicoImages = () => {
         />
       </div>
       {/* Image #3 */}
-      <div className="relative w-full h-[320px] md:h-[520px] py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority
           src={picture3}
@@ -48,7 +48,7 @@ const FurnicoImages = () => {
           />
         </div>
         {/* Image #5 */}
-        <div className="relative w-full h-[320px] md:h-[520px] py-4 ">
+        <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
           <Image
             priority
             src={picture5}
@@ -58,7 +58,7 @@ const FurnicoImages = () => {
         </div>
       </div>
       {/* Image #6 */}
-      <div className="relative w-full h-[320px] md:h-[520px] py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority
           src={picture6}
@@ -67,7 +67,7 @@ const FurnicoImages = () => {
         />
       </div>
       {/* Image #7 */}
-      <div className="relative w-full h-[320px] md:h-[520px] py-4 ">
+      <div className="relative w-full h-[520px] md:h-[720px] py-4 ">
         <Image
           priority
           src={picture7}
