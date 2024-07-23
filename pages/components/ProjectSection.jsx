@@ -15,10 +15,11 @@ const ProjectSection = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-40">
           <Link
             href="/projects/furnico"
-            className="relative w-full h-[520px] md:h-[720px]"
+            className="relative w-full h-[320px] md:h-[720px]"
           >
             <Image
               priority={true}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture1}
               alt="picture1"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -41,6 +42,7 @@ const ProjectSection = () => {
           >
             <Image
               priority={true}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture2}
               alt="picture2"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -63,6 +65,7 @@ const ProjectSection = () => {
           >
             <Image
               priority={true}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture3}
               alt="picture3"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -85,6 +88,7 @@ const ProjectSection = () => {
           >
             <Image
               priority={true}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture4}
               alt="picture4"
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
@@ -107,6 +111,7 @@ const ProjectSection = () => {
           <Link href="/projects/thetomato" className="relative w-full h-full">
             <Image
               priority={true}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src={picture5}
               alt="picture5"
               className="w-full  h-[520px] md:h-[720px] object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
